@@ -1,0 +1,331 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --mask-bottom: linear-gradient(to bottom, #000 50%, transparent 100%);
+  --mask-right: linear-gradient(to right, #000 20%, transparent 100%);
+  --mask-top: linear-gradient(to top, #000 40%, transparent 100%);
+  --grid-areas-default: "a a a a b b b b b b b b";
+  --grid-areas-tablet: "a a a a a a a a" "b b b b b b b b";
+  --grid-areas-mobile: "a a a a" "b b b b";
+  --grid-areas-default2: "a a a b b b c c c d d d";
+  --grid-areas-tablet2: "a a a a b b b b" "c c c c d d d d";
+  --grid-areas-mobile2: "a a b b" "c c d d";
+  --mask-bottom2: linear-gradient(to bottom, #000 30%, transparent 80%);
+  --mask-right2: linear-gradient(to right, #000 40%, transparent 90%);
+  --mask-bottom3: linear-gradient(to bottom, #000 30%, transparent 80%);
+  --mask-right3: linear-gradient(to right, #000 40%, transparent 90%);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: max(env(safe-area-inset-left), 24px);
+  padding-right: max(env(safe-area-inset-right), 24px);
+}
+button {
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+* {
+  font-family: "Inter Variable", "SF Pro Display", -apple-system,
+    BlinkMacSystemFont, sans-serif;
+}
+
+product-h1 {
+  grid-area: a;
+}
+
+section {
+  padding: 160px 0;
+}
+.HeroSection {
+  padding: 72px 0 0 0;
+}
+.CustomersSection {
+  padding: 64px 0;
+}
+
+.product-text {
+  grid-template-areas: "a a a a a a b b b b b b";
+}
+
+.carousel {
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scroll-snap-stop: always;
+  padding-block: calc(2px + 2px);
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.logo {
+  animation: fadeInOut 10.8s ease-in-out infinite;
+  opacity: 0;
+}
+
+.second-logo {
+  animation-delay: 3.6s;
+}
+.third-logo {
+  animation-delay: 7.2s;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  1.85% {
+    /* 0.2s fade in */
+    opacity: 1;
+    transform: scale(1);
+  }
+  29.63% {
+    /* Stay visible for 3s */
+    opacity: 1;
+    transform: scale(1);
+  }
+  31.48% {
+    /* 0.2s fade out */
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+p {
+  color: #8a8f98;
+}
+
+.radial-mask {
+  mask: radial-gradient(
+    104% 72.5% at calc(200% - 100% * 0.25) 50%,
+    rgba(0, 0, 0, 0) 98.5%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.mask-bottom {
+  mask-image: var(--mask-bottom), var(--mask-right);
+  -webkit-mask-image: var(--mask-bottom), var(--mask-right);
+  webkit-mask-composite: source-in;
+  mask-composite: intersect;
+  background: linear-gradient(
+    134deg,
+    hsla(0, 0%, 100%, 0.08),
+    hsla(0, 0%, 100%, 0.02),
+    hsla(0, 0%, 100%, 0) 55%
+  );
+  border: 1px solid hsla(0, 0%, 100%, 0.17);
+  padding: 32px 24px;
+  border-radius: 10px;
+}
+
+.notification-mask {
+  mask-image: var(--mask-top), var(--mask-right);
+  webkit-mask-composite: source-in;
+  mask-composite: intersect;
+  background: black;
+  transition: 32s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.notification {
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.ProjectsSection,
+.AiSection {
+  background: linear-gradient(
+    to bottom,
+    hsla(0, 0%, 100%, 0.05),
+    transparent 20%
+  );
+}
+
+.grid-root {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 32px;
+  grid-template-areas: "a a a b b b c c c d d d";
+}
+
+@media (max-width: 1024px) {
+  .grid-root {
+    grid-template-areas: var(--grid-areas-laptop, var(--grid-areas-default));
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-root {
+    --grid-columns: 8;
+    grid-template-areas: var(--grid-areas-tablet, var(--grid-areas-default));
+  }
+  .grid-root-2 {
+    grid-template-areas: var(--grid-areas-mobile2, var(--grid-areas-default2));
+  }
+}
+
+.plan-text {
+  grid-area: a;
+}
+.plan-box {
+  position: relative;
+  background: #000000;
+  grid-area: b;
+}
+
+.plan-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  pointer-events: none;
+}
+
+.li-blurt-out {
+  animation: li-blurt-out 0.48s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation-delay: calc(0.5s + 0 * 0.1s);
+}
+
+.ul {
+  grid-area: 1/1;
+}
+@keyframes li-blurt-out {
+  0% {
+    opacity: 1;
+    filter: none;
+  }
+  100% {
+    opacity: 0;
+    filter: blur(4px);
+  }
+}
+.li-blurt-out:nth-child(1) {
+  animation-delay: calc(0.5s + 0 * 0.1s);
+}
+.li-blurt-out:nth-child(2) {
+  animation-delay: calc(0.5s + 1 * 0.1s);
+}
+.li-blurt-out:nth-child(3) {
+  animation-delay: calc(0.5s + 2 * 0.1s);
+}
+.li-blurt-in {
+  animation: li-blurt-in 0.48s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation-delay: calc(0.5s + 2 * 0.1s);
+}
+.li-blurt-in:nth-child(1) {
+  animation-delay: calc(0.7s + 0 * 0.1s);
+}
+.li-blurt-in:nth-child(2) {
+  animation-delay: calc(0.7s + 1 * 0.1s);
+}
+.li-blurt-in:nth-child(3) {
+  animation-delay: calc(0.7s + 2 * 0.1s);
+}
+
+@keyframes li-blurt-in {
+  0% {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+.TrackingSection {
+  background: linear-gradient(
+    to bottom,
+    hsla(0, 0%, 100%, 0.05),
+    transparent 20%
+  );
+}
+
+.tracking-screenshot {
+  -webkit-mask-image: radial-gradient(
+    83.83% 83.84% at 50% 16.17%,
+    #d9d9d9 0,
+    hsla(0, 0%, 45%, 0) 80%
+  );
+}
+
+.momentum {
+  mask-image: var(--mask-bottom2), var(--mask-right2);
+}
+
+.cycle-progress {
+  user-select: none;
+
+  -webkit-mask-image: var(--mask-bottom3), var(--mask-right3);
+  mask-image: var(--mask-bottom3), var(--mask-right3);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+
+.insight-img:after {
+  background: linear-gradient(to bottom, transparent 70%, #08090a 100%),
+    linear-gradient(
+      to right,
+      #08090a 0,
+      transparent 20%,
+      transparent 80%,
+      #08090a 100%
+    ),
+    linear-gradient(150deg, #08090a 20%, transparent 30%);
+}
