@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <header className="Header w-full border-b border-[rgb(28,29,29)] sticky top-0 z-9999 bg-black">
-      <nav className="h-full   flex items-center  ">
+      <nav className="flex items-center h-full ">
         <div className="container flex h-[64px]">
           <div className="relative w-full">
             <ul className=" list-none flex items-center gap-[8px] min-h-[64px] ">
@@ -136,14 +136,14 @@ const Header = () => {
                     <path
                       d="M4 12H20"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                     <path
                       d="M4 7H20"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                 </button>

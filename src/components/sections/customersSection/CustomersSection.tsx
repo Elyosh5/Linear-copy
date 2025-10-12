@@ -4,7 +4,7 @@ const CustomersSection = () => {
   return (
     <section className="CustomersSection">
       <div className="container">
-        <div className="content flex flex-col items-center text-center w-full ">
+        <div className="flex flex-col items-center w-full text-center content ">
           <div className="">
             <p className="hidden lg:inline text-[#8a8f98] text-[21px] text-center">
               <span className="text-white">
@@ -25,7 +25,7 @@ const CustomersSection = () => {
                 style={{ transitionProperty: "filter", gridArea: "1 / 1" }}
               >
                 <div className="logos relative flex flex-col w-full h-full aspect-[8/2] transition-[2s] transform will-change-auto">
-                  <div className="logo   first-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center ">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo first-logo ">
                     <svg
                       viewBox="0 0 180 56"
                       fill="white"
@@ -41,7 +41,7 @@ const CustomersSection = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div className="logo second-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center  ">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo second-logo ">
                     <svg
                       viewBox="0 0 180 56"
                       fill="currentColor"
@@ -82,13 +82,13 @@ const CustomersSection = () => {
                         >
                           <stop
                             offset=".16"
-                            stop-color="#fff"
-                            stop-opacity=".39"
+                            stopColor="#fff"
+                            stopOpacity=".39"
                           ></stop>
                           <stop
                             offset=".658"
-                            stop-color="#fff"
-                            stop-opacity=".8"
+                            stopColor="#fff"
+                            stopOpacity=".8"
                           ></stop>
                         </linearGradient>
                         <linearGradient
@@ -101,13 +101,13 @@ const CustomersSection = () => {
                         >
                           <stop
                             offset=".182"
-                            stop-color="#fff"
-                            stop-opacity=".31"
+                            stopColor="#fff"
+                            stopOpacity=".31"
                           ></stop>
                           <stop
                             offset=".715"
-                            stop-color="#fff"
-                            stop-opacity="0"
+                            stopColor="#fff"
+                            stopOpacity="0"
                           ></stop>
                         </linearGradient>
                         <linearGradient
@@ -118,17 +118,17 @@ const CustomersSection = () => {
                           y2="34.458"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#fff" stop-opacity=".6"></stop>
+                          <stop stopColor="#fff" stopOpacity=".6"></stop>
                           <stop
                             offset=".667"
-                            stop-color="#fff"
-                            stop-opacity=".22"
+                            stopColor="#fff"
+                            stopOpacity=".22"
                           ></stop>
                         </linearGradient>
                       </defs>
                     </svg>
                   </div>
-                  <div className="logo third-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center ">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo third-logo ">
                     <svg
                       viewBox="0 0 180 56"
                       fill="currentColor"
@@ -143,7 +143,7 @@ const CustomersSection = () => {
                   </div>
                 </div>
                 <div className="logos relative  flex flex-col w-full h-full aspect-[8/2] transition-[2s] transform will-change-auto ">
-                  <div className="logo first-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo first-logo">
                     <svg
                       viewBox="0 0 180 56"
                       fill="currentColor"
@@ -156,7 +156,7 @@ const CustomersSection = () => {
                       <path d="M49.063 14.016C42.978 14.016 38 18.995 38 25.08s4.98 11.064 11.064 11.064c6.086 0 11.065-4.948 11.065-11.064a11.057 11.057 0 0 0-11.065-11.064Zm0 18.163c-3.78 0-6.822-3.104-6.822-7.099s3.042-7.1 6.822-7.1c3.78 0 6.823 3.105 6.823 7.1 0 3.996-3.042 7.1-6.823 7.1ZM71.313 20.163c-1.997 0-3.934.8-4.948 2.151V20.47H62.37v21.514h3.995v-7.776c1.014 1.26 2.89 1.937 4.948 1.937 4.303 0 7.684-3.381 7.684-7.991 0-4.61-3.381-7.99-7.684-7.99Zm-.676 12.509c-2.274 0-4.302-1.783-4.302-4.518s2.028-4.518 4.302-4.518c2.275 0 4.303 1.783 4.303 4.518s-2.028 4.518-4.303 4.518ZM88.403 20.163c-4.364 0-7.806 3.412-7.806 7.99 0 4.58 3.012 7.992 7.93 7.992 4.025 0 6.607-2.428 7.406-5.164H92.03c-.492 1.137-1.875 1.936-3.534 1.936-2.06 0-3.627-1.444-3.996-3.503h11.618v-1.568c0-4.18-2.92-7.683-7.715-7.683Zm-3.872 6.423c.43-1.936 2.028-3.196 3.965-3.196 2.059 0 3.626 1.352 3.81 3.196h-7.775ZM106.75 20.163c-1.783 0-3.658.8-4.518 2.12V20.47h-3.996v15.367h3.996V27.57c0-2.397 1.29-3.965 3.38-3.965 1.937 0 2.981 1.476 2.981 3.535v8.697h3.996v-9.343c0-3.81-2.336-6.33-5.839-6.33ZM122.824 14.325l-8.698 21.513h4.272l1.844-4.702h9.896l1.844 4.702h4.333l-8.636-21.513h-4.855Zm-1.199 13.246 3.565-9.005 3.534 9.005h-7.099ZM142.001 14.325h-4.057v21.513h4.057V14.325Z"></path>
                     </svg>
                   </div>
-                  <div className="logo second-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo second-logo">
                     <svg
                       viewBox="0 0 116 43"
                       fill="currentColor"
@@ -176,7 +176,7 @@ const CustomersSection = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div className="logo third-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo third-logo">
                     <svg
                       viewBox="0 0 180 56"
                       fill="currentColor"
@@ -191,7 +191,7 @@ const CustomersSection = () => {
                   </div>
                 </div>
                 <div className="logos relative  flex flex-col w-full h-full aspect-[8/2] transition-[2s] transform will-change-auto ">
-                  <div className="logo first-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo first-logo">
                     <svg
                       fill="currentColor"
                       viewBox="0 0 180 56"
@@ -205,7 +205,7 @@ const CustomersSection = () => {
                     </svg>
                   </div>
 
-                  <div className="logo second-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo second-logo">
                     <svg
                       viewBox="0 0 180 56"
                       fill="currentColor"
@@ -218,7 +218,7 @@ const CustomersSection = () => {
                       <path d="M51.1294 35.0449H51.4609V41H50.4859C44.1484 41 40.4825 37.3997 40.4825 31.503V28.4671L42.5495 27.9416C43.1539 27.7859 43.6999 27.4746 44.1289 27.0269C44.5579 26.5793 44.8504 26.015 44.9869 25.4117C45.1234 24.8084 45.0649 24.1662 44.8504 23.5823C44.6359 22.9985 44.2654 22.4925 43.7779 22.1033C43.2905 21.7141 42.7055 21.4805 42.0815 21.4222C41.4575 21.3638 40.8335 21.4611 40.2875 21.7335C39.722 22.006 39.254 22.4341 38.9225 22.9596C38.591 23.485 38.4155 24.0883 38.4155 24.7111V37.6916H32V24.497C32 24.1078 32.0195 23.6991 32.078 23.3099C32.6825 18.6198 36.7775 15 41.7305 15C46.2349 15 50.0179 17.9775 51.1294 22.0254C51.7144 24.1467 51.5194 26.4042 50.6029 28.4087C49.8229 30.1018 48.5554 31.5225 46.9759 32.4955C47.5219 34.6557 48.6334 35.0449 51.1294 35.0449ZM67.0023 23.6018V27.241H66.3978C65.1498 27.241 64.1749 27.5913 63.4729 28.2725C62.7709 28.9536 62.4199 29.8877 62.4199 31.0749V37.6332H58.8904V23.8159H62.4199V25.6063C63.4729 24.2635 64.7989 23.6018 66.3978 23.6018H67.0023ZM82.1538 32.009H71.4483C71.6628 32.8458 72.1698 33.5853 72.8718 34.0913C73.6128 34.6168 74.5098 34.8892 75.4068 34.8503C76.1673 34.8503 76.9278 34.6946 77.6103 34.3638C78.2343 34.0913 78.7803 33.6632 79.1898 33.1377L81.5493 35.2006C80.8083 36.0763 79.8723 36.7769 78.8193 37.244C77.7078 37.7305 76.4988 37.9835 75.2703 37.9641C73.9053 37.9835 72.5403 37.6527 71.3313 37.0105C70.1808 36.4072 69.2448 35.4925 68.5818 34.3832C67.9383 33.2545 67.5873 31.9895 67.5873 30.7051C67.5873 29.4207 67.9188 28.1362 68.5428 27.0075C69.1668 25.9177 70.0833 25.0225 71.1948 24.4192C72.3453 23.7964 73.6323 23.4656 74.9388 23.485C77.0058 23.485 78.7413 24.1662 80.1258 25.5479C81.5103 26.9296 82.2123 28.6617 82.2123 30.744C82.2513 31.1722 82.2123 31.5808 82.1538 32.009ZM77.1813 27.3578C76.5378 26.8518 75.7578 26.5793 74.9388 26.5793C74.1198 26.5793 73.3398 26.8518 72.6963 27.3578C72.0528 27.8832 71.6043 28.6228 71.4093 29.4207H78.4683C78.2928 28.6033 77.8248 27.8832 77.1813 27.3578ZM104.852 24.9057C105.788 25.8398 106.275 27.0853 106.275 28.6617V37.6527H102.746V29.7126C102.746 28.8563 102.492 28.1946 102.005 27.6886C101.517 27.1826 100.854 26.9296 100.035 26.9296C99.1772 26.9296 98.4752 27.1826 97.9292 27.7081C97.3832 28.2335 97.1297 28.9147 97.1297 29.771V37.6527H93.6002V29.7126C93.6002 28.8757 93.3467 28.1946 92.8592 27.6886C92.3522 27.1826 91.6892 26.9296 90.8702 26.9296C90.4802 26.9102 90.1097 26.9686 89.7392 27.1048C89.3882 27.241 89.0567 27.4551 88.7642 27.7081C88.4912 27.9805 88.2767 28.2919 88.1402 28.6617C88.0037 29.012 87.9452 29.4012 87.9452 29.771V37.6527H84.4158V23.8353H87.9647V25.256C88.9982 24.0883 90.3632 23.5045 92.0597 23.5045C92.9567 23.485 93.8342 23.6796 94.6337 24.0883C95.3747 24.4775 95.9792 25.0419 96.4082 25.7425C97.5587 24.244 99.1187 23.485 101.108 23.485C102.668 23.5045 103.916 23.9716 104.852 24.9057ZM123.143 30.7246C123.143 32.7874 122.441 34.5 121.017 35.8817C119.594 37.2635 117.839 37.9641 115.713 37.9446C113.607 37.9446 111.833 37.244 110.409 35.8623C108.986 34.4805 108.264 32.768 108.264 30.7051C108.264 28.6422 108.986 26.9296 110.409 25.5479C111.833 24.1662 113.607 23.4656 115.713 23.4656C117.819 23.4656 119.594 24.1662 121.017 25.5479C122.441 26.9491 123.162 28.6811 123.143 30.7246ZM118.443 33.4686C119.126 32.729 119.516 31.756 119.516 30.744C119.516 29.732 119.126 28.759 118.443 28.0195C118.092 27.6692 117.663 27.3772 117.195 27.1826C116.727 26.988 116.24 26.8907 115.733 26.8907C115.226 26.8907 114.738 26.988 114.27 27.1826C113.802 27.3772 113.373 27.6497 113.022 28.0195C112.32 28.759 111.93 29.732 111.93 30.744C111.93 31.756 112.32 32.729 113.022 33.4686C113.744 34.1692 114.719 34.5584 115.733 34.5584C116.747 34.5389 117.722 34.1497 118.443 33.4686ZM129.597 27.0464V32.7874C129.597 33.9746 130.241 34.5584 131.508 34.5584C132.132 34.5389 132.756 34.3832 133.322 34.0913V37.3802C132.522 37.7889 131.645 38.003 130.748 37.9835C129.207 37.9835 128.037 37.5749 127.257 36.7575C126.477 35.9401 126.087 34.8114 126.087 33.3713V27.0659H123.884V23.8548H126.087V21.5584L129.617 20.3518V23.8548H133.341V27.0659H129.597V27.0464ZM148.921 32.009H138.216C138.431 32.8458 138.938 33.5853 139.64 34.0913C140.381 34.6168 141.278 34.8892 142.175 34.8503C142.935 34.8503 143.695 34.6946 144.378 34.3638C145.002 34.0913 145.548 33.6632 145.977 33.1377L148.336 35.2006C147.595 36.0763 146.659 36.7769 145.606 37.244C144.495 37.7305 143.286 37.9835 142.058 37.9641C140.693 37.9835 139.328 37.6527 138.119 37.0105C136.968 36.4072 136.032 35.4925 135.369 34.3832C134.726 33.2545 134.375 31.9895 134.375 30.7051C134.375 29.4207 134.706 28.1362 135.33 27.0075C135.954 25.9177 136.871 25.0225 137.982 24.4192C139.133 23.7964 140.42 23.4656 141.726 23.485C143.793 23.485 145.528 24.1662 146.913 25.5479C148.297 26.9296 148.999 28.6617 148.999 30.744C148.999 31.1722 148.98 31.6003 148.921 32.009ZM143.949 27.3578C143.305 26.8518 142.526 26.5793 141.707 26.5793C140.888 26.5793 140.108 26.8518 139.464 27.3578C138.821 27.8832 138.372 28.6228 138.177 29.4207H145.236C145.06 28.6033 144.592 27.8832 143.949 27.3578Z"></path>
                     </svg>
                   </div>
-                  <div className="logo third-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center">
+                  <div className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo third-logo">
                     <svg
                       viewBox="0 0 180 56"
                       fill="white"
@@ -234,7 +234,7 @@ const CustomersSection = () => {
                 </div>
                 <div className="logos relative   flex flex-col w-full h-full  aspect-[8/2] transition-[2s] transform will-change-auto ">
                   <div
-                    className="logo first-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo first-logo"
                     style={{ animationDelay: "0.1s" }}
                   >
                     <svg
@@ -250,7 +250,7 @@ const CustomersSection = () => {
                     </svg>
                   </div>
                   <div
-                    className="logo second-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo second-logo"
                     style={{ animationDelay: "3.7s" }}
                   >
                     <svg
@@ -276,7 +276,7 @@ const CustomersSection = () => {
                     </svg>
                   </div>
                   <div
-                    className="logo third-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo third-logo"
                     style={{ animationDelay: "7.3s" }}
                   >
                     <svg
@@ -289,8 +289,8 @@ const CustomersSection = () => {
                       focusable="false"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillOpacity="evenodd"
+                        clipRule="evenodd"
                         d="M34.292 33.307v3.443L26 28.5l1.731-1.723 6.56 6.53zm3.46 3.443h-3.46L42.583 45l1.732-1.723-6.563-6.527zm19.68-6.527l1.73-1.723L42.58 12l-1.727 1.727 6.56 6.527h-3.964l-4.58-4.547-1.73 1.723 2.847 2.833h-1.99V33.07h12.871v-1.98l2.848 2.834 1.732-1.723-4.58-4.556V23.7l6.565 6.523zM35.155 19.396L33.42 21.12l1.858 1.848 1.731-1.723-1.853-1.848zm14.726 14.652l-1.73 1.723 1.856 1.848 1.732-1.723-1.858-1.848zM31.442 23.09l-1.732 1.723 4.58 4.556v-3.445l-2.848-2.834zm13.735 13.667h-3.46l4.579 4.556 1.731-1.723-2.85-2.833z"
                         fill="#fff"
                       ></path>
@@ -303,7 +303,7 @@ const CustomersSection = () => {
                 </div>
                 <div className="logos relative  flex flex-col w-full h-full aspect-[8/2]  transition-[2s] transform will-change-auto ">
                   <div
-                    className="logo first-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo first-logo"
                     style={{ animationDelay: "0.1s" }}
                   >
                     <svg
@@ -320,15 +320,15 @@ const CustomersSection = () => {
                         fill="#fff"
                       ></path>
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillOpacity="evenodd"
+                        clipRule="evenodd"
                         d="M33.466 13C29.895 13 27 15.89 27 19.454v15.092C27 38.111 29.895 41 33.466 41h14.97c3.57 0 6.465-2.89 6.465-6.454V19.454c0-3.565-2.894-6.454-6.465-6.454h-14.97zm12.018 10.414a5.918 5.918 0 00-3.81-1.396c-1.15 0-2.299.38-2.299 1.435 0 .963 1.024 1.34 2.284 1.803l.373.138c2.493.84 4.546 1.869 4.546 4.308 0 2.649-2.06 4.458-5.43 4.665l-.305 1.42a.575.575 0 01-.565.452H38.16a.586.586 0 01-.558-.702l.328-1.498a7.791 7.791 0 01-3.4-1.859.567.567 0 010-.816l1.176-1.147a.572.572 0 01.802 0 5.675 5.675 0 004.003 1.564c1.534 0 2.575-.65 2.575-1.679 0-.93-.853-1.242-2.473-1.834-.172-.063-.353-.128-.542-.199-2.082-.74-4.053-1.8-4.053-4.261 0-2.85 2.385-4.24 5.196-4.377l.296-1.446a.575.575 0 01.562-.449h2.111a.572.572 0 01.562.685l-.328 1.616a8.705 8.705 0 012.932 1.64.56.56 0 01.03.823l-1.097 1.098a.582.582 0 01-.798.016z"
                         fill="#fff"
                       ></path>
                     </svg>
                   </div>
                   <div
-                    className="logo second-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo second-logo"
                     style={{ animationDelay: "3.7s" }}
                   >
                     <svg
@@ -344,7 +344,7 @@ const CustomersSection = () => {
                     </svg>
                   </div>
                   <div
-                    className="logo third-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo third-logo"
                     style={{ animationDelay: "7.3s" }}
                   >
                     <svg
@@ -365,7 +365,7 @@ const CustomersSection = () => {
                 </div>
                 <div className="logos relative   flex flex-col w-full h-full aspect-[8/2]  transition-[2s] transform will-change-auto ">
                   <div
-                    className="logo first-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo first-logo"
                     style={{ animationDelay: "0.1s" }}
                   >
                     <svg
@@ -384,7 +384,7 @@ const CustomersSection = () => {
                     </svg>
                   </div>
                   <div
-                    className="logo second-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo second-logo"
                     style={{ animationDelay: "3.7s" }}
                   >
                     <svg
@@ -397,15 +397,15 @@ const CustomersSection = () => {
                       focusable="false"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillOpacity="evenodd"
+                        clipRule="evenodd"
                         d="M81.969 27.838c.318-1.491 1.345-2.25 2.696-2.25 1.338 0 2.317.793 2.63 2.25h-5.326zm2.769-4.832c-3.438 0-5.577 2.654-5.577 5.901 0 3.363 2.285 5.857 5.682 5.857 2.342 0 3.763-1.047 4.642-2.365L87.3 31.05c-.55.726-1.43 1.11-2.372 1.11-1.543 0-2.576-.698-2.928-2.094h5.772l-.002.006 2.104.012c.08-.368.127-.747.127-1.176 0-2.828-1.803-5.901-5.262-5.901zM71.484 32.111c-1.899 0-3.04-1.361-3.04-3.04 0-1.68 1.163-3.041 3.04-3.041 1.876 0 3.04 1.361 3.04 3.04 0 1.68-1.142 3.041-3.04 3.041zm3.04-7.186c-.814-.96-1.969-1.548-3.402-1.548-3.205 0-5.51 2.55-5.51 5.694s2.284 5.693 5.51 5.693c1.433 0 2.588-.588 3.401-1.548v1.268h2.832V19.388h-2.832v5.537zM98.478 28.65c.791.54 1.293 1.353 1.293 2.424 0 2.166-1.49 3.668-4.278 3.668-2.623 0-4.03-1.316-4.59-2.645l2.408-1.376s.324 1.436 2.139 1.436c1.123 0 1.469-.486 1.469-.915 0-.2-.065-.565-.864-.875-1.606-.621-4.71-.9-4.71-3.734 0-2.32 1.857-3.557 4.148-3.557 2.142 0 3.518 1.305 4.04 2.32l-2.355 1.348s-.453-1.127-1.663-1.127-1.318.685-1.318.884c0 .58.604.818 1.901 1.193.768.222 1.557.424 2.382.953l-.002.002zM146 26.124h-2.442v4.596c0 1.436 1.426 1.127 2.442 1.127v2.585s-.535.088-1.469.088c-2.074 0-3.76-.619-3.76-3.8v-4.596h-1.88v-2.74h1.88v-3.093h2.787v3.093H146v2.74zm-39.3 5.833c1.157 0 2.046-.564 2.496-1.49l2.416 1.417c-.947 1.698-2.711 2.879-4.912 2.879-3.338 0-5.671-2.611-5.671-5.833 0-3.221 2.355-5.833 5.671-5.833 2.169 0 3.926 1.162 4.883 2.837l-2.411 1.45c-.458-.914-1.34-1.48-2.472-1.48-1.686 0-2.884 1.354-2.884 3.026 0 1.672 1.187 3.027 2.884 3.027zM132.21 32.447c-1.83 0-2.931-1.397-2.931-3.121s1.122-3.12 2.931-3.12 2.931 1.396 2.931 3.12c0 1.724-1.1 3.121-2.931 3.121zm.349-8.965c3.09 0 5.312 2.617 5.312 5.844 0 3.227-2.201 5.843-5.312 5.843-1.382 0-2.495-.603-3.28-1.588v5.705h-2.73V23.792h2.73v1.279c.785-.985 1.898-1.588 3.28-1.588zm-11.258 11.4V23.815h2.73v11.067h-2.73zm-5.087-9.177c.527-1.341 1.6-2.108 3.216-2.112v3.188c-1.895-.188-3.264.798-3.214 3.126l-.002-.005v4.98h-2.73V23.815h2.73v1.89zm5.087-3.367v-2.95h2.82v2.95h-2.82zM34 39.567c0 1.476.942 2.433 2.394 2.433h6.994c4.172 0 7.586-1.435 9.906-3.947H34v1.514zM43.388 15h-6.994C34.942 15 34 15.957 34 17.433v1.514h19.294C50.974 16.435 47.56 15 43.388 15zm6.104 17.347c0 1.194.765 1.969 1.945 1.969h4.19c.476-1.199.795-2.516.943-3.937h-5.133c-1.18 0-1.945.774-1.945 1.968zm-5.81-7.684c0 1.194.766 1.968 1.946 1.968H56.57a14.828 14.828 0 00-.942-3.937h-10c-1.18 0-1.945.775-1.945 1.969zm1.944 7.684c0-1.194-.765-1.968-1.945-1.968H34v3.937h9.681c1.18 0 1.945-.775 1.945-1.969zm-5.809-7.684c0-1.194-.765-1.969-1.945-1.969H34v3.937h3.872c1.18 0 1.945-.774 1.945-1.968z"
                         fill="#fff"
                       ></path>
                     </svg>
                   </div>
                   <div
-                    className="logo third-logo absolute top-0 left-0 flex items-center inset-0 min-h-full justify-center"
+                    className="absolute inset-0 top-0 left-0 flex items-center justify-center min-h-full logo third-logo"
                     style={{ animationDelay: "7.3s" }}
                   >
                     <svg

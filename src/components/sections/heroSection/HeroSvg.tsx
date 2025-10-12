@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const HeroSvg = () => {
@@ -22,7 +23,7 @@ const HeroSvg = () => {
           fill="none"
           viewBox="0 0 1399 884"
         >
-          <g clip-path="url(#clip0_7846_49627)">
+          <g clipPath="url(#clip0_7846_49627)">
             <rect width="1399" height="884" fill="#131315" rx="4"></rect>
             <mask
               id="path-3-outside-1_7846_49627"
@@ -47,9 +48,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#57595A"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M346.25 15a.75.75 0 010 1.5h-12.5a.75.75 0 010-1.5h12.5z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#57595A"
@@ -57,9 +58,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#57595A"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M373.5 22.5a.5.5 0 01.5.5v3a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-3a.5.5 0 01.5-.5h1zm-2.5 1V25h-5.25a.75.75 0 010-1.5H371zm7.25 0a.75.75 0 010 1.5H375v-1.5h3.25zM369.5 18a.5.5 0 01.5.5v3a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-3a.5.5 0 01.5-.5h1zm-2.5 1.25v1.5h-1.25a.75.75 0 010-1.5H367zm11.25 0a.75.75 0 010 1.5H371v-1.5h7.25zm-2.75-5.5a.5.5 0 01.5.5v3a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-3a.5.5 0 01.5-.5h1zM373 15v1.5h-7.25a.75.75 0 010-1.5H373zm5.25 0a.75.75 0 010 1.5H377V15h1.25z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <mask
               id="path-10-outside-2_7846_49627"
@@ -84,7 +85,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="64">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/e522be49c136f6b81a1c5cb3aa7b2075f78404c0-1305x1444.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -109,7 +110,7 @@ const HeroSvg = () => {
               stroke="#1A1C1F"
               rx="8.5"
             ></rect>
-            <g clip-path="url(#clip1_7846_49627)">
+            <g clipPath="url(#clip1_7846_49627)">
               <path
                 fill="#949698"
                 d="M42.033 87.625a.45.45 0 01.45.45v1.33c1.78.168 6.02.688 6.02.997 0 .233-2.007.596-6.019 1.09v1.31a.45.45 0 01-.745.34l-2.885-2.481a.3.3 0 010-.455l2.886-2.473a.45.45 0 01.293-.108zm3.593-4.719a.45.45 0 01.635-.047l2.885 2.482a.3.3 0 010 .455l-2.886 2.472a.45.45 0 01-.743-.342v-1.33c-1.78-.168-6.02-.688-6.02-.996 0-.234 2.007-.597 6.019-1.09V83.2a.45.45 0 01.11-.294z"
@@ -125,9 +126,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#F2C94C"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M372 74a7 7 0 100-14 7 7 0 000 14zm0-2a5 5 0 100-10 5 5 0 000 10z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#F2C94C"
@@ -139,7 +140,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="120">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/f45112e8aeed10023708772eb88872fa97b4291c-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -164,7 +165,7 @@ const HeroSvg = () => {
               stroke="#0E1010"
               rx="8.5"
             ></rect>
-            <g fill="#58B95E" clip-path="url(#clip2_7846_49627)">
+            <g fill="#58B95E" clipPath="url(#clip2_7846_49627)">
               <rect
                 width="14"
                 height="14"
@@ -173,9 +174,9 @@ const HeroSvg = () => {
                 transform="matrix(-1 0 0 1 50.793 136.692)"
               ></rect>
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M44.777 140.411c-.2 0-.379.12-.455.304l-1.842 4.473-.693-1.684a.492.492 0 00-.455-.304h-1.64a.492.492 0 100 .984h1.31l1.023 2.484a.491.491 0 00.91 0l1.842-4.472.694 1.683a.491.491 0 00.455.305h1.968a.492.492 0 100-.984h-1.639l-1.023-2.485a.492.492 0 00-.455-.304z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </g>
             <mask id="path-25-inside-3_7846_49627" fill="#fff">
@@ -197,9 +198,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#26B5CE"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M370.5 116a.5.5 0 01.49.402l.938 4.69 3.693.923a.5.5 0 010 .97l-3.693.923-.938 4.69a.5.5 0 01-.98 0l-.938-4.69-3.693-.923a.5.5 0 010-.97l3.693-.923.938-4.69a.5.5 0 01.49-.402zm6 9a.5.5 0 01.474.342l.421 1.263 1.263.421a.5.5 0 010 .948l-1.263.421-.421 1.263a.5.5 0 01-.948 0l-.421-1.263-1.263-.421a.5.5 0 010-.948l1.263-.421.421-1.263a.5.5 0 01.474-.342z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#949698"
@@ -236,9 +237,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#F2994A"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M372 186a7 7 0 100-14 7 7 0 000 14zm0-2a5 5 0 10-.001-10.001A5 5 0 00372 184z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#F2994A"
@@ -250,7 +251,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="232">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/62175a4eea5abef20b7338bcc6565876ce937416-467x492.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -275,7 +276,7 @@ const HeroSvg = () => {
               stroke="#0E1010"
               rx="8.5"
             ></rect>
-            <g clip-path="url(#clip3_7846_49627)">
+            <g clipPath="url(#clip3_7846_49627)">
               <path
                 fill="#949698"
                 d="M44.268 261.25c.777 0 1.65-.16 2.245-.344.244-.075.36-.338.28-.58a.522.522 0 00-.637-.329c-.475.131-1.161.277-1.832.277-2.886 0-4.433-1.527-4.433-4.26 0-2.617 1.53-4.309 4.274-4.309 2.508 0 4.005 1.548 4 3.638.005 1.787-.236 2.589-1.016 2.589-.441 0-.686-.345-.686-.777v-3.293a.527.527 0 00-.527-.527h-.067a.46.46 0 00-.46.461h-.056c-.129-.362-.875-.688-1.771-.585-1.24.14-2.302 1.124-2.302 2.746 0 1.691.9 2.823 2.345 2.877.977.041 1.612-.395 1.813-.881h.052c.103.663.849.955 1.582.93 1.83-.033 2.178-1.761 2.178-3.498 0-2.478-1.766-4.635-5.042-4.635-3.434 0-5.454 2.013-5.458 5.256.004 3.338 1.972 5.244 5.518 5.244zm-.395-3.425c-1.118 0-1.504-.922-1.509-1.918.005-.946.558-1.7 1.527-1.7 1.05 0 1.522.445 1.526 1.696.004 1.284-.429 1.922-1.544 1.922z"
@@ -296,9 +297,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#5E68D0"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M372 228a7 7 0 100 14 7 7 0 000-14zm4.101 5.101a.85.85 0 10-1.202-1.202l-4.399 4.399-1.399-1.399a.85.85 0 10-1.202 1.202l2 2a.85.85 0 001.202 0l5-5z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#949698"
@@ -306,7 +307,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="288">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -350,9 +351,9 @@ const HeroSvg = () => {
             ></path>
             <path
               fill="#949698"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M378.941 291.914l-1.983-.258a5.056 5.056 0 000-1.312l1.983-.258a7.063 7.063 0 010 1.828zm-.472-3.594a6.98 6.98 0 00-.915-1.581l-1.586 1.218c.265.345.485.724.653 1.13l1.848-.767zm-2.208-2.874l-1.218 1.586a4.98 4.98 0 00-1.13-.653l.767-1.848a6.98 6.98 0 011.581.915zm-3.347-1.387l-.258 1.983a5.056 5.056 0 00-1.312 0l-.258-1.983a7.063 7.063 0 011.828 0zm-3.594.472l.767 1.848a4.98 4.98 0 00-1.13.653l-1.218-1.586a6.98 6.98 0 011.581-.915zm-2.874 2.208l1.586 1.218a4.98 4.98 0 00-.653 1.13l-1.848-.767a6.98 6.98 0 01.915-1.581zm-1.387 3.347a7.063 7.063 0 000 1.828l1.983-.258a5.056 5.056 0 010-1.312l-1.983-.258zm.472 3.594l1.848-.767c.168.406.388.785.653 1.13l-1.586 1.218a6.98 6.98 0 01-.915-1.581zm2.208 2.874l1.218-1.586a4.98 4.98 0 001.13.653l-.767 1.848a6.98 6.98 0 01-1.581-.915zm3.347 1.387l.258-1.983a5.056 5.056 0 001.312 0l.258 1.983a7.063 7.063 0 01-1.828 0zm3.594-.472l-.767-1.848a4.98 4.98 0 001.13-.653l1.218 1.586a6.98 6.98 0 01-1.581.915zm2.874-2.208l-1.586-1.218a4.98 4.98 0 00.653-1.13l1.848.767a6.98 6.98 0 01-.915 1.581z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#949698"
@@ -360,7 +361,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="344">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/4472d232811671536455f5768bf0a6584d39c755-2186x2186.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -385,12 +386,12 @@ const HeroSvg = () => {
               stroke="#0E1010"
               rx="8.5"
             ></rect>
-            <g fill="#949698" clip-path="url(#clip4_7846_49627)">
+            <g fill="#949698" clipPath="url(#clip4_7846_49627)">
               <path d="M44 364.5a1.75 1.75 0 00-1.75 1.75v.438a1.75 1.75 0 003.5 0v-.438A1.75 1.75 0 0044 364.5z"></path>
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M44 374.125a6.125 6.125 0 100-12.25 6.125 6.125 0 000 12.25zm-2.519-3.606l-.884.884a4.813 4.813 0 116.806 0l-.884-.884a2.626 2.626 0 00-1.856-.769h-1.326c-.696 0-1.364.277-1.856.769z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </g>
             <mask id="path-67-inside-7_7846_49627" fill="#fff">
@@ -416,7 +417,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="400">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/e71a8d13b2d26a3a53303810550d00b23cb87ce5-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -439,10 +440,10 @@ const HeroSvg = () => {
               x="35"
               y="415"
               stroke="#0E1010"
-              stroke-width="2"
+              strokeWidth="2"
               rx="9"
             ></rect>
-            <g clip-path="url(#clip5_7846_49627)">
+            <g clipPath="url(#clip5_7846_49627)">
               <path
                 fill="#FC7840"
                 d="M44 430.125a6.125 6.125 0 100-12.25 6.125 6.125 0 000 12.25zm-1.286-8.339L44 423.072l1.286-1.286a.657.657 0 01.928.929L44.928 424l1.286 1.286a.657.657 0 01-.928.929L44 424.929l-1.286 1.286a.657.657 0 01-.928-.929L43.072 424l-1.286-1.285a.657.657 0 01.928-.929z"
@@ -471,7 +472,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="456.02">
               <div className="sc-ef15f601-0 itoEXV">
-                <img
+                <Image
                   src="https://webassets.linear.app/images/ornj730p/production/74717706c51f3c14ebe2851e0076def007ebafdd-1000x1000.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -494,10 +495,10 @@ const HeroSvg = () => {
               x="35"
               y="471.02"
               stroke="#0E1010"
-              stroke-width="2"
+              strokeWidth="2"
               rx="9"
             ></rect>
-            <g fill="#FC7840" clip-path="url(#clip6_7846_49627)">
+            <g fill="#FC7840" clipPath="url(#clip6_7846_49627)">
               <rect
                 width="14"
                 height="14"
@@ -506,9 +507,9 @@ const HeroSvg = () => {
                 transform="matrix(-1 0 0 1 51 473.02)"
               ></rect>
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M44.984 476.738c-.2 0-.379.121-.455.305l-1.842 4.473-.693-1.684a.493.493 0 00-.455-.305H39.9a.493.493 0 000 .985h1.31l1.023 2.484a.493.493 0 00.91 0l1.842-4.473.694 1.684a.493.493 0 00.455.305h1.969a.493.493 0 000-.985h-1.64l-1.023-2.484a.493.493 0 00-.455-.305z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </g>
             <mask id="path-88-inside-9_7846_49627" fill="#fff">
@@ -564,9 +565,9 @@ const HeroSvg = () => {
             gdfgddgf
             <path
               fill="#5E6AD2"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M541 14a1 1 0 01-.5.866v.634a.5.5 0 00.5.5h.5c1.398 0 2.097 0 2.648.228a3.003 3.003 0 011.624 1.624c.228.551.228 1.25.228 2.648 0 1.398 0 2.097-.228 2.648a3.003 3.003 0 01-1.624 1.624c-.435.18-.961.218-1.849.226a.301.301 0 00-.299.3v.402a.3.3 0 00.3.3h.2a.5.5 0 01.5.5v.3a.2.2 0 01-.2.2h-5.6a.2.2 0 01-.2-.2v-.3a.5.5 0 01.5-.5h.2a.3.3 0 00.3-.3v-.401a.3.3 0 00-.299-.301c-.888-.008-1.414-.046-1.849-.226a3.003 3.003 0 01-1.624-1.624C534 22.597 534 21.898 534 20.5c0-1.398 0-2.097.228-2.648a3.003 3.003 0 011.624-1.624c.551-.228 1.25-.228 2.648-.228h.5a.5.5 0 00.5-.5v-.634A1 1 0 11541 14zm-4 6a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-5.6 2a.4.4 0 00-.4.4v.7c0 .22.179.4.4.4h3.2a.4.4 0 00.4-.4v-.7a.4.4 0 00-.4-.4h-3.2z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               fill="#FEFFFE"
@@ -581,7 +582,7 @@ const HeroSvg = () => {
               d="M673.039 25v-9.454h5.927v1.227h-4.501v2.881h4.192v1.224h-4.192v2.894h4.557V25h-5.983zm15.464-9.454V25h-1.311l-4.806-6.934h-.088V25h-1.426v-9.454h1.32l4.81 6.943h.088v-6.944h1.413zm8.479 2.986a2.871 2.871 0 00-.36-.752 2.31 2.31 0 00-.531-.573 2.232 2.232 0 00-.706-.364 2.846 2.846 0 00-.864-.125c-.532 0-1.012.137-1.44.41-.428.275-.766.677-1.015 1.206-.247.526-.37 1.17-.37 1.934 0 .766.125 1.414.374 1.944.249.529.591.93 1.025 1.204.434.274.928.411 1.482.411.514 0 .962-.104 1.343-.314.385-.209.682-.504.891-.886.213-.385.319-.837.319-1.357l.369.07h-2.705v-1.178h3.716v1.076c0 .794-.169 1.483-.508 2.068a3.455 3.455 0 01-1.394 1.348c-.591.317-1.268.475-2.031.475-.856 0-1.607-.197-2.253-.59-.643-.395-1.145-.953-1.505-1.676-.36-.727-.54-1.588-.54-2.586 0-.754.105-1.43.314-2.03a4.4 4.4 0 01.882-1.529 3.842 3.842 0 011.343-.965 4.205 4.205 0 011.694-.337c.511 0 .987.076 1.427.226.443.151.837.365 1.182.642a3.65 3.65 0 011.324 2.248h-1.463zm7.406 1.14v1.2h-4.192v-1.2h4.192zm5.408-4.127V25h-1.431v-8.023h-.055l-2.262 1.477v-1.367l2.359-1.541h1.389zm5.849 9.584c-.634 0-1.2-.109-1.699-.328a2.89 2.89 0 01-1.177-.909 2.411 2.411 0 01-.461-1.357h1.449c.019.28.113.523.282.73.172.202.397.36.674.47.277.11.585.166.923.166.372 0 .702-.064.988-.194.289-.129.516-.309.679-.54.163-.234.244-.503.244-.808a1.45 1.45 0 00-.244-.835 1.595 1.595 0 00-.707-.573c-.307-.138-.68-.207-1.117-.207h-.799V19.58h.799c.351 0 .659-.063.923-.189.268-.126.477-.302.628-.526.151-.228.226-.494.226-.799a1.43 1.43 0 00-.198-.762 1.332 1.332 0 00-.554-.512 1.8 1.8 0 00-.84-.185c-.308 0-.596.057-.863.171-.265.11-.481.27-.647.48a1.24 1.24 0 00-.268.743h-1.38c.016-.51.166-.96.453-1.348a2.92 2.92 0 011.144-.909 3.728 3.728 0 011.579-.328c.607 0 1.13.119 1.57.356.443.234.785.546 1.025.937.243.39.363.819.36 1.283.003.53-.145.979-.443 1.348-.296.37-.69.617-1.182.744v.073c.628.096 1.114.345 1.459.748.347.403.52.903.517 1.5.003.52-.142.987-.434 1.4a2.96 2.96 0 01-1.187.973c-.501.234-1.075.351-1.722.351zm8.208 0c-.578 0-1.098-.11-1.56-.332a2.835 2.835 0 01-1.099-.923 2.433 2.433 0 01-.438-1.34h1.385c.034.407.214.741.54 1.003.326.261.717.392 1.172.392.364 0 .685-.083.965-.25a1.79 1.79 0 00.665-.696c.163-.296.245-.633.245-1.011a2.09 2.09 0 00-.25-1.03 1.84 1.84 0 00-.687-.71 1.946 1.946 0 00-.998-.264c-.286 0-.574.05-.863.148a2.014 2.014 0 00-.702.388l-1.306-.194.531-4.764h5.198v1.223h-4.012l-.3 2.645h.056c.184-.178.429-.328.734-.448.307-.12.637-.18.988-.18a2.894 2.894 0 012.603 1.533c.262.47.391 1.012.388 1.625.003.612-.135 1.159-.415 1.639-.277.48-.662.858-1.155 1.135-.489.274-1.051.411-1.685.411z"
             ></path>
             <g filter="url(#filter0_d_7846_49627)">
-              <g clip-path="url(#clip7_7846_49627)">
+              <g clipPath="url(#clip7_7846_49627)">
                 <rect
                   width="142"
                   height="24"
@@ -607,12 +608,12 @@ const HeroSvg = () => {
                 x="1045.25"
                 y="8.25"
                 stroke="url(#paint0_linear_7846_49627)"
-                stroke-width="0.5"
+                strokeWidth="0.5"
                 rx="3.75"
               ></rect>
             </g>
             <g filter="url(#filter2_d_7846_49627)">
-              <g clip-path="url(#clip8_7846_49627)">
+              <g clipPath="url(#clip8_7846_49627)">
                 <rect
                   width="79"
                   height="24"
@@ -627,9 +628,9 @@ const HeroSvg = () => {
                 ></path>
                 <path
                   fill="#949698"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M1218 20c0 3.866-3.13 7-7 7s-7-3.134-7-7 3.13-7 7-7 7 3.134 7 7zm-1.5 0c0 3.038-2.46 5.5-5.5 5.5s-5.5-2.462-5.5-5.5 2.46-5.5 5.5-5.5 5.5 2.462 5.5 5.5z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
                 <g filter="url(#filter3_d_7846_49627)">
                   <path
@@ -644,12 +645,12 @@ const HeroSvg = () => {
                 x="1195.25"
                 y="8.25"
                 stroke="url(#paint1_linear_7846_49627)"
-                stroke-width="0.5"
+                strokeWidth="0.5"
                 rx="3.75"
               ></rect>
             </g>
             <g filter="url(#filter4_d_7846_49627)">
-              <g clip-path="url(#clip9_7846_49627)">
+              <g clipPath="url(#clip9_7846_49627)">
                 <rect
                   width="109"
                   height="24"
@@ -675,7 +676,7 @@ const HeroSvg = () => {
                 x="1282.25"
                 y="8.25"
                 stroke="url(#paint2_linear_7846_49627)"
-                stroke-width="0.5"
+                strokeWidth="0.5"
                 rx="3.75"
               ></rect>
             </g>
@@ -697,7 +698,7 @@ const HeroSvg = () => {
               x="468.5"
               y="141.804"
               stroke="#fff"
-              stroke-opacity="0.1"
+              strokeOpacity="0.1"
               rx="4.5"
             ></rect>
             <path
@@ -718,7 +719,7 @@ const HeroSvg = () => {
               x="933.5"
               y="141.804"
               stroke="#fff"
-              stroke-opacity="0.1"
+              strokeOpacity="0.1"
               rx="4.5"
             ></rect>
             <path
@@ -731,7 +732,7 @@ const HeroSvg = () => {
               x="468"
               y="189.804"
               fill="#fff"
-              fill-opacity="0.05"
+              fillOpacity="0.05"
               rx="5"
             ></rect>
             <rect
@@ -740,7 +741,7 @@ const HeroSvg = () => {
               x="468.5"
               y="190.304"
               stroke="#fff"
-              stroke-opacity="0.1"
+              strokeOpacity="0.1"
               rx="4.5"
             ></rect>
             <path
@@ -801,7 +802,7 @@ const HeroSvg = () => {
               x="648.5"
               y="330.804"
               stroke="#fff"
-              stroke-opacity="0.1"
+              strokeOpacity="0.1"
               rx="4.5"
             ></rect>
             <path
@@ -822,7 +823,7 @@ const HeroSvg = () => {
               x="468.5"
               y="412.804"
               stroke="#fff"
-              stroke-opacity="0.1"
+              strokeOpacity="0.1"
               rx="4.5"
             ></rect>
             <path
@@ -836,7 +837,7 @@ const HeroSvg = () => {
               ></path>
               <foreignObject width="16" height="16" x="472.676" y="720.522">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -851,9 +852,9 @@ const HeroSvg = () => {
               ></path>
               <path
                 fill="#0E1010"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M504.676 734.522a4 4 0 11-8 0 4 4 0 018 0zm-4 2a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#FEFFFE"
@@ -865,7 +866,7 @@ const HeroSvg = () => {
               ></path>
               <foreignObject width="16" height="16" x="1258.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -884,7 +885,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1267.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -903,7 +904,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1276.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -922,7 +923,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1285.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -941,7 +942,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1294.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -1008,7 +1009,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1130" y="605">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -1041,9 +1042,9 @@ const HeroSvg = () => {
               ></path>
               <path
                 fill="#0E1010"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M504.676 769.521a4 4 0 11-8 0 4 4 0 018 0zm-4 2a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#FEFFFE"
@@ -1059,9 +1060,9 @@ const HeroSvg = () => {
               ></path>
               <path
                 fill="#0E1010"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M504.676 807.522a4 4 0 11-8 0 4 4 0 018 0zm-4 2a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#FEFFFE"
@@ -1077,9 +1078,9 @@ const HeroSvg = () => {
               ></path>
               <path
                 fill="#F2C94C"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M494.676 844.522a7 7 0 100-14 7 7 0 000 14zm0-2a5 5 0 10-.001-10.001 5 5 0 00.001 10.001z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#F2C94C"
@@ -1095,15 +1096,15 @@ const HeroSvg = () => {
               ></path>
               <path
                 fill="#949698"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M811.678 842.772a5.25 5.25 0 10-.001-10.501 5.25 5.25 0 00.001 10.501zm0-8.25a.75.75 0 100 1.5.75.75 0 000-1.5zm0 2.25a.75.75 0 00-.75.75v2.25a.75.75 0 001.5 0v-2.25a.75.75 0 00-.75-.75z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#4CB782"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M494.676 880.522a7 7 0 100-14 7 7 0 000 14zm0-2a5 5 0 100-10 5 5 0 000 10z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#4CB782"
@@ -1119,9 +1120,9 @@ const HeroSvg = () => {
               ></path>
               <path
                 fill="#949698"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M855.676 878.772a5.25 5.25 0 100-10.5 5.25 5.25 0 000 10.5zm0-8.25a.75.75 0 100 1.5.75.75 0 000-1.5zm0 2.25a.75.75 0 00-.75.75v2.25a.75.75 0 001.5 0v-2.25a.75.75 0 00-.75-.75z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </g>
           </g>
@@ -1131,7 +1132,7 @@ const HeroSvg = () => {
             x="0.25"
             y="0.25"
             stroke="#22262A"
-            stroke-width="0.5"
+            strokeWidth="0.5"
             rx="3.75"
           ></rect>
           <rect
@@ -1140,8 +1141,8 @@ const HeroSvg = () => {
             x="0.25"
             y="0.25"
             stroke="url(#paint3_linear_7846_49627)"
-            stroke-opacity="0.1"
-            stroke-width="0.5"
+            strokeOpacity="0.1"
+            strokeWidth="0.5"
             rx="3.75"
           ></rect>
           <defs>

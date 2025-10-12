@@ -1,8 +1,10 @@
 "use client;";
 
+import Image from "next/image";
+
 const TrackingSection = () => {
   return (
-    <section className="TrackingSection overflow-hidden">
+    <section className="overflow-hidden TrackingSection">
       <div className="container">
         <div className="content">
           <div className="">
@@ -28,7 +30,7 @@ const TrackingSection = () => {
                 </svg>
               </div>
               <h1 className="text-[56px] font-[538]">
-                Issue tracking you'll enjoy using
+                Issue tracking you&apos;ll enjoy using
               </h1>
               <p className="text-[#8a8f98] text-[17px] mb-[30px] w-[374px] leading-[24.5px] tracking-[0]">
                 <span className="text-white">
@@ -39,7 +41,7 @@ const TrackingSection = () => {
               </p>
             </div>
             <div className="tracking-screenshot overflow-hidden relative flex flex-col items-center pointer-events-none justify-center before:block before:mt-[-4%] after:block after:mb-[-6%]  ">
-              <img
+              <Image
                 alt="A screenshot of an issue board view in Linear showing three high-priority tasks"
                 data-nosnippet="true"
                 data-loaded="true"
@@ -53,7 +55,7 @@ const TrackingSection = () => {
                 src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/d4c9c051-1515-488f-00aa-1553b9322900/f=auto,dpr=2,q=95,fit=scale-down,metadata=none"
               />
             </div>
-            <div className="flex  ">
+            <div className="flex ">
               <div className="flex flex-col lg:flex-row border-t-2 border-b-2 border-[hsla(0,0%,100%,.05)]  ">
                 <div className="py-[50px] relative pr-[48px] after:absolute after:top-0 after:bottom-0 after:right-0 after:h-full after:w-[2px] after:bg-[hsla(0,0%,100%,.05)] transform-[translateX(calc(32px/2+2px/2px))]">
                   <div className="">
@@ -93,30 +95,30 @@ const TrackingSection = () => {
                           >
                             <path
                               stroke="#F2BE01"
-                              stroke-width="1.732"
+                              strokeWidth="1.732"
                               d="M16.59 154.168l9.019-11.048A58.405 58.405 0 0157.91 123.1a58.305 58.305 0 008.413-2.592l17.132-6.73a102.814 102.814 0 0017.499-8.888 102.84 102.84 0 0143.359-15.335l23.815-2.738h4.729a46.985 46.985 0 0023.593-6.352 46.972 46.972 0 0112.523-5.03l29.221-7.085 39.65-15.208 6.398-1.637a139.053 139.053 0 0134.461-4.337h24.319"
                             ></path>
                             <path
                               stroke="#5E6AD2"
-                              stroke-dasharray="4.35 10.86"
-                              stroke-width="1.732"
+                              strokeDasharray="4.35 10.86"
+                              strokeWidth="1.732"
                               d="M17.135 153.625l37.477-24.985 35.305-23.899 22.86-15.776a71.928 71.928 0 0134.713-12.467c20.962 0 41.521-5.753 59.438-16.632l3.024-1.835 39.65-26.072 7.891-5.534a139.046 139.046 0 0175.354-25.132l9.09-.293"
                             ></path>
                             <path
                               stroke="#525355"
                               stroke-linecap="round"
-                              stroke-width="1.732"
+                              strokeWidth="1.732"
                               d="M17.135 78.65H26.1a133.08 133.08 0 0039.795-6.09l1.168-.367a123.893 123.893 0 0029.73-13.87v0a123.889 123.889 0 0158.543-19.267l7.007-.467a139.042 139.042 0 0035.617-7.13l6.56-2.236 29.873-5.974 37.345-13.028a139.078 139.078 0 0119.1-5.171l2.027-.397a139.04 139.04 0 0126.698-2.587h22.373"
                             ></path>
                             <path
                               stroke="#5E6AD2"
-                              stroke-width="1.732"
+                              strokeWidth="1.732"
                               d="M16.59 153.625l21.527-7.304a102.646 102.646 0 0118.178-4.371 102.726 102.726 0 0031.887-10.16l10.423-5.323 11.671-5.627a91.076 91.076 0 0139.556-9.038 91.07 91.07 0 0028.272-4.499l39.451-12.882 44.972-20.288a139.05 139.05 0 0157.179-12.3h24.402"
                             ></path>
                             <path
                               stroke="#fff"
                               stroke-linecap="round"
-                              stroke-width="0.999"
+                              strokeWidth="0.999"
                               d="M17.135 153.081v7.156"
                               opacity="0.1"
                             ></path>
@@ -127,7 +129,7 @@ const TrackingSection = () => {
                             <path
                               stroke="#fff"
                               stroke-linecap="round"
-                              stroke-width="0.999"
+                              strokeWidth="0.999"
                               d="M344.653 153.081v7.156"
                               opacity="0.1"
                             ></path>
@@ -138,7 +140,7 @@ const TrackingSection = () => {
                             <path
                               stroke="#fff"
                               stroke-linecap="round"
-                              stroke-width="0.999"
+                              strokeWidth="0.999"
                               d="M180.621 153v7.156"
                               opacity="0.1"
                             ></path>
@@ -167,7 +169,7 @@ const TrackingSection = () => {
                             <div className="z-0 relative bg-[hsla(0,0%,100%,.05)] border-1 border-[hsla(0,0%,100%,.1)] px-[15px] py-[10px] rounded-[8px] ">
                               <p>Users report unexpected rate limiting</p>
                               <div className="flex gap-[8px] items-center">
-                                <img
+                                <Image
                                   src="https://webassets.linear.app/images/ornj730p/production/74717706c51f3c14ebe2851e0076def007ebafdd-1000x1000.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   alt="Avatar of Paco"
                                   className="rounded-[50%] h-[18px] w-[18px]"
@@ -233,7 +235,7 @@ const TrackingSection = () => {
                             <div className="px-[15px] py-[10px]">
                               <p>RangeError: Index 0 out of range</p>
                               <div className="flex gap-[8px] items-center text-[rgb(138,143,152)]">
-                                <img
+                                <Image
                                   src="https://webassets.linear.app/images/ornj730p/production/265a1c61a0335e4df0248ea38bf642ebb3693bda-2264x2256.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   alt="Avatar of Romain"
                                   className="rounded-[50%] h-[18px] w-[18px]"
@@ -243,11 +245,11 @@ const TrackingSection = () => {
                             </div>
                             <div className="px-[15px] py-[10px]">
                               <p className="font-[17px]">
-                                Pressing "Enter" quickly when logging in via
-                                email generates multiple emails
+                                Pressing &quot;Enter&quot; quickly when logging
+                                in via email generates multiple emails
                               </p>
                               <div className="flex gap-[8px] items-center text-[rgb(138,143,152)]">
-                                <img
+                                <Image
                                   src="https://webassets.linear.app/images/ornj730p/production/4d081a7a9ee2575014ab150f2d74cc3e2266a937-300x300.jpg?w=72&q=95&auto=format&dpr=2"
                                   alt="Avatar of Tuomas"
                                   className="rounded-[50%] h-[18px] w-[18px]"
@@ -268,7 +270,7 @@ const TrackingSection = () => {
               style={{ gridTemplateAreas: "'a a a a a a b b b b b b'" }}
             >
               <div
-                className="z-1  "
+                className="z-1 "
                 style={{
                   gridColumn: `1 / span 6`,
                   gridRow: `1 / 1`,
@@ -301,13 +303,13 @@ const TrackingSection = () => {
                 </a>
               </div>
               <div
-                className="insight-img relative overflow-hidden after:absolute after:inset-0"
+                className="relative overflow-hidden insight-img after:absolute after:inset-0"
                 style={{
                   gridColumn: `1 / -1`,
                   gridRow: `1 / 1`,
                 }}
               >
-                <img
+                <Image
                   alt="A screenshot of a Cycle time chart"
                   data-nosnippet="true"
                   data-loaded="true"
@@ -344,8 +346,8 @@ const TrackingSection = () => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M8 13.5C11.0376 13.5 13.5 11.0376 13.5 8C13.5 4.96243 11.0376 2.5 8 2.5C4.96243 2.5 2.5 4.96243 2.5 8C2.5 11.0376 4.96243 13.5 8 13.5ZM8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z"
                       ></path>
                     </svg>
@@ -373,13 +375,13 @@ const TrackingSection = () => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M6.93213 2.21398C7.66484 1.90793 8.49512 1.93032 9.21389 2.28028L14.28 4.74739C15.2242 5.20709 15.2441 6.55895 14.3138 7.04673L9.2874 9.6826C8.48012 10.1058 7.51988 10.1058 6.7126 9.6826L1.68618 7.04673C0.75589 6.55895 0.775786 5.20709 1.71995 4.74739L6.78611 2.28028L6.93213 2.21398ZM8.55132 3.67054C8.24643 3.52213 7.89768 3.50303 7.58179 3.61428L7.44868 3.67054L2.83947 5.91363L7.41491 8.31243C7.7819 8.50486 8.2181 8.50486 8.58509 8.31243L13.1595 5.91363L8.55132 3.67054Z"
                       ></path>
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M13.9045 10.0768C14.272 9.90435 14.7242 10.0333 14.9153 10.365C15.1063 10.6966 14.9634 11.1047 14.5959 11.2772L9.49912 13.6693C8.55934 14.1102 7.44077 14.1102 6.50099 13.6693L1.40417 11.2772L1.33776 11.2428C1.01976 11.0547 0.905685 10.676 1.08483 10.365C1.26402 10.054 1.67295 9.92085 2.02626 10.0477L2.0956 10.0768L7.19241 12.468L7.38675 12.5464C7.84801 12.7022 8.36492 12.6757 8.80769 12.468L13.9045 10.0768Z"
                       ></path>
                     </svg>
@@ -406,8 +408,8 @@ const TrackingSection = () => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M14.25 3a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5h12.5ZM4 8a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5A.75.75 0 0 1 4 8Zm2.75 3.5a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5h-2.5Z"
                       ></path>
                     </svg>
@@ -434,8 +436,8 @@ const TrackingSection = () => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M8.80596 1.18963C10 0.467371 9.5 1.97074 9.5 2.97299C9.5 3.97525 10.5 5.45947 11 5.97974C11.5 6.5 12 6.98199 12 6.98199C12.8575 7.87856 13 8.98398 13 9.98874V10.0159C13 12.7685 10.7614 15 8 15C5.23858 15 3 12.7685 3 10.0159C3 9 3.31522 8.48521 3.25 7.5C3.21077 6.90743 3 6.5 3 6C3 5.15486 4.34867 5.95895 5 6.5L6 7.45656V5.53023C6 4.11834 6.66687 2.78883 7.8 1.94169L8.80596 1.18963ZM8 13.9978C9.25 13.9978 10.5 13.5604 10.5 11.811C10.5 10.4429 9.48069 9.09715 8.63778 8.40117C8.35964 8.17151 8 8.38851 8 8.74969V10.4989C8 10.8601 7.63032 11.1027 7.30003 10.9582L6.19997 10.4771C5.86968 10.3327 5.49618 10.5754 5.51681 10.936C5.58908 12.1989 5.9719 13.9978 8 13.9978Z"
                       ></path>
                     </svg>

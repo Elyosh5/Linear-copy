@@ -4,6 +4,7 @@ import { useState } from "react";
 import CollaborativeDesk from "./svgs/CollaborateSvg";
 import FeedbackSvg from "./svgs/FeedbackSvg";
 import TextSvg from "./svgs/TextSvg";
+import Image from "next/image";
 
 const Collaborative = () => {
   return (
@@ -20,8 +21,8 @@ const Collaborative = () => {
       color="rgba(104, 204, 88, 1)"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M12.5627 9.57636L12.75 9.69796L13.7032 10.3553C14.461 10.8779 14.9339 11.7171 14.9936 12.6286L15 12.825V13.1248C15 14.1111 14.2385 14.9196 13.2714 14.9944L13.1248 15H7.87519C6.88887 15 6.0804 14.2385 6.00564 13.2714L6 13.1248V12.825C6 11.9044 6.42236 11.0386 7.13885 10.472L7.29684 10.3553L8.25 9.69796C9.54299 8.80627 11.2335 8.76574 12.5627 9.57636ZM7.56266 7.57636L7.75 7.69796L8.67249 8.33269C8.35326 8.45808 8.04396 8.61758 7.75 8.81119L6.34989 9.73331C5.50723 10.2883 5 11.2297 5 12.2387V12.8112C5 12.8747 5.00271 12.9377 5.00802 12.9998L2.87519 13C1.88887 13 1.0804 12.2385 1.00564 11.2714L1 11.1248V10.825C1 9.90435 1.42236 9.03865 2.13885 8.47203L2.29684 8.35528L3.25 7.69796C4.54299 6.80627 6.23353 6.76574 7.56266 7.57636ZM10.5 3C11.8807 3 13 4.11929 13 5.5C13 6.88071 11.8807 8 10.5 8C9.11929 8 8 6.88071 8 5.5C8 4.11929 9.11929 3 10.5 3ZM5.5 1C6.88071 1 8 2.11929 8 3.5C8 4.88071 6.88071 6 5.5 6C4.11929 6 3 4.88071 3 3.5C3 2.11929 4.11929 1 5.5 1Z"
       ></path>
     </svg>
@@ -84,7 +85,7 @@ const ProjectsSection = () => {
               <div className="flex flex-col p-[12px] gap-[8px]">
                 <div className="flex items-center gap-[8px]">
                   <div className="">
-                    <img
+                    <Image
                       src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                       width="16"
                       height="16"
@@ -134,7 +135,7 @@ const ProjectsSection = () => {
               <div className="h-[1px] bg-[#34343a] w-full"></div>
               <div className="flex  items-center p-[12px] gap-[8px]">
                 <div className="">
-                  <img
+                  <Image
                     src="https://webassets.linear.app/images/ornj730p/production/33f99f8b8fa79df7781b3db5cb14173849043518-2616x2616.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="14"
                     height="14"
@@ -194,8 +195,8 @@ const ProjectsSection = () => {
                 color="#9c9da1"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M14.9408 8.91622L12.9576 8.65753C12.9855 8.44385 13 8.22509 13 8.00195C13 7.77881 12.9855 7.56006 12.9576 7.34638L14.9408 7.08769C14.9799 7.38692 15 7.69208 15 8.00195C15 8.31182 14.9799 8.61699 14.9408 8.91622ZM14.4688 5.32244C14.2328 4.75336 13.9239 4.22215 13.5538 3.74046L11.968 4.95912C12.2328 5.30381 12.4533 5.68315 12.6214 6.08855L14.4688 5.32244ZM12.2615 2.44816L11.0428 4.034C10.6981 3.76912 10.3188 3.54868 9.91341 3.38057L10.6795 1.53312C11.2486 1.76911 11.7798 2.078 12.2615 2.44816ZM8.91426 1.06112L8.65557 3.04432C8.4419 3.01645 8.22314 3.00195 8 3.00195C7.77686 3.00195 7.5581 3.01645 7.34443 3.04432L7.08574 1.06112C7.38496 1.02209 7.69013 1.00195 8 1.00195C8.30987 1.00195 8.61504 1.02209 8.91426 1.06112ZM5.32049 1.53312L6.08659 3.38057C5.68119 3.54868 5.30185 3.76912 4.95716 4.034L3.73851 2.44816C4.22019 2.078 4.7514 1.76911 5.32049 1.53312ZM2.4462 3.74046L4.03204 4.95912C3.76716 5.30381 3.54673 5.68315 3.37862 6.08855L1.53116 5.32244C1.76715 4.75336 2.07605 4.22215 2.4462 3.74046ZM1.05917 7.08769C1.02013 7.38692 1 7.69208 1 8.00195C1 8.31182 1.02013 8.61699 1.05917 8.91622L3.04237 8.65753C3.01449 8.44385 3 8.22509 3 8.00195C3 7.77881 3.01449 7.56006 3.04237 7.34638L1.05917 7.08769ZM1.53116 10.6815L3.37862 9.91536C3.54673 10.3208 3.76716 10.7001 4.03204 11.0448L2.4462 12.2634C2.07605 11.7818 1.76715 11.2506 1.53116 10.6815ZM3.73851 13.5557L4.95716 11.9699C5.30185 12.2348 5.68119 12.4552 6.08659 12.6233L5.32049 14.4708C4.7514 14.2348 4.22019 13.9259 3.73851 13.5557ZM7.08574 14.9428L7.34443 12.9596C7.5581 12.9875 7.77686 13.002 8 13.002C8.22314 13.002 8.4419 12.9875 8.65557 12.9596L8.91427 14.9428C8.61504 14.9818 8.30987 15.002 8 15.002C7.69013 15.002 7.38496 14.9818 7.08574 14.9428ZM10.6795 14.4708L9.91341 12.6233C10.3188 12.4552 10.6981 12.2348 11.0428 11.9699L12.2615 13.5557C11.7798 13.9259 11.2486 14.2348 10.6795 14.4708ZM13.5538 12.2634L11.968 11.0448C12.2328 10.7001 12.4533 10.3208 12.6214 9.91536L14.4688 10.6815C14.2328 11.2506 13.924 11.7818 13.5538 12.2634Z"
                   fill="#949698"
                 ></path>
@@ -255,9 +256,9 @@ const ProjectsSection = () => {
   console.log(index);
 
   return (
-    <section className="ProjectsSection  overflow-x-hidden">
+    <section className="overflow-x-hidden ProjectsSection">
       <div className="container">
-        <div className="content   ">
+        <div className="content ">
           <div className="">
             <a href="/plan">
               <div className="flex items-center gap-[8px]  hover: group ">
@@ -291,7 +292,7 @@ const ProjectsSection = () => {
             </p>
           </div>
           <div className="plan-image flex flex-col justify-center items-center h-auto relative top-[-110px] opacity-50">
-            <img
+            <Image
               className=" max-w-[1600px]  "
               src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/25491170-d59e-427e-ee76-a69dcf080300/f=auto,dpr=2,q=95,fit=scale-down,metadata=none"
               alt=""
@@ -324,8 +325,8 @@ const ProjectsSection = () => {
                           >
                             <path d="M10.7519 6.0284L8.25194 4.57006C8.1741 4.52466 8.08705 4.50195 8 4.50195V11.3442C8.08705 11.3442 8.1741 11.3215 8.25194 11.2761L10.7519 9.81781C10.9055 9.7282 11 9.56375 11 9.38592V6.46029C11 6.28245 10.9055 6.118 10.7519 6.0284Z"></path>
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M8.75581 1.21343C8.28876 0.931461 7.71124 0.93146 7.24419 1.21343L2.74419 3.93024C2.28337 4.20846 2 4.71907 2 5.27123V10.7327C2 11.2848 2.28337 11.7954 2.74419 12.0737L7.24419 14.7905C7.71124 15.0724 8.28876 15.0724 8.75581 14.7905L13.2558 12.0737C13.7166 11.7954 14 11.2848 14 10.7327V5.27123C14 4.71907 13.7166 4.20846 13.2558 3.93024L8.75581 1.21343ZM12.5 5.27123L8 2.55442L3.5 5.27123L3.5 10.7327L8 13.4495L12.5 10.7327L12.5 5.27123Z"
                             ></path>
                           </svg>
@@ -345,18 +346,18 @@ const ProjectsSection = () => {
                             xmlns="http://www.w3.org/2000/svg"
                           >
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M12.5 13.5V15H3.5V13.5H12.5ZM13.5 12.5V3.5C13.5 2.94771 13.0523 2.5 12.5 2.5H3.5C2.94771 2.5 2.5 2.94772 2.5 3.5V12.5C2.5 13.0523 2.94772 13.5 3.5 13.5V15L3.24414 14.9873C2.06772 14.8677 1.13227 13.9323 1.0127 12.7559L1 12.5V3.5C1 2.20566 1.98361 1.14082 3.24414 1.0127L3.5 1H12.5L12.7559 1.0127C14.0164 1.14082 15 2.20566 15 3.5V12.5L14.9873 12.7559C14.8677 13.9323 13.9323 14.8677 12.7559 14.9873L12.5 15V13.5C13.0523 13.5 13.5 13.0523 13.5 12.5Z"
                             ></path>
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M10 6C10 7.10457 9.10457 8 8 8C6.89543 8 6 7.10457 6 6C6 4.89543 6.89543 4 8 4C9.10457 4 10 4.89543 10 6Z"
                             ></path>
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M11.405 12H4.59566C4.18761 12 3.88127 11.6641 4.0449 11.307C4.40693 10.5169 5.38905 9.33333 8.02449 9.33333C10.673 9.33333 11.6222 10.5286 11.9603 11.3187C12.1123 11.6738 11.8066 12 11.405 12Z"
                             ></path>
                           </svg>
@@ -365,7 +366,7 @@ const ProjectsSection = () => {
                         <div className="">
                           <div className="flex">
                             <div className="radial-mask ">
-                              <img
+                              <Image
                                 src="https://webassets.linear.app/images/ornj730p/production/62175a4eea5abef20b7338bcc6565876ce937416-467x492.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                 width="18"
                                 height="18"
@@ -375,7 +376,7 @@ const ProjectsSection = () => {
                             </div>
                             <div className="">
                               <div className="radial-mask ml-[-5px] ">
-                                <img
+                                <Image
                                   src="https://webassets.linear.app/images/ornj730p/production/74717706c51f3c14ebe2851e0076def007ebafdd-1000x1000.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   width="18"
                                   height="18"
@@ -386,7 +387,7 @@ const ProjectsSection = () => {
                             </div>
                             <div className="">
                               <div className="radial-mask ml-[-5px] ">
-                                <img
+                                <Image
                                   src="https://webassets.linear.app/images/ornj730p/production/e71a8d13b2d26a3a53303810550d00b23cb87ce5-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   width="18"
                                   height="18"
@@ -397,7 +398,7 @@ const ProjectsSection = () => {
                             </div>
                             <div className="">
                               <div className="ml-[-5px] ">
-                                <img
+                                <Image
                                   src="https://webassets.linear.app/images/ornj730p/production/f45112e8aeed10023708772eb88872fa97b4291c-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   width="18"
                                   height="18"
@@ -410,7 +411,7 @@ const ProjectsSection = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex items-center  ">
+                    <div className="flex items-center ">
                       <div className="min-w-[108px]">Resources</div>
                       <div className="flex gap-[4px]">
                         <div className="flex items-center gap-[4px] bg-[#232326] py-[1px] px-[5px] rounded-[6px]">
@@ -483,7 +484,7 @@ const ProjectsSection = () => {
                               <path
                                 d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                                 fill="var(--color-brand-bg)"
-                                stroke-width="2"
+                                strokeWidth="2"
                                 stroke-linejoin="round"
                               ></path>
                             </svg>
@@ -505,7 +506,7 @@ const ProjectsSection = () => {
                               <path
                                 d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                                 fill="var(--color-brand-bg)"
-                                stroke-width="2"
+                                strokeWidth="2"
                                 stroke-linejoin="round"
                               ></path>
                             </svg>
@@ -528,7 +529,7 @@ const ProjectsSection = () => {
                                 d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                                 fill="none"
                                 stroke="#F2C94C"
-                                stroke-width="2"
+                                strokeWidth="2"
                                 stroke-linejoin="round"
                               ></path>
                             </svg>
@@ -555,7 +556,7 @@ const ProjectsSection = () => {
                     project updates.
                   </p>
                 </div>
-                <div className="relative notification-mask overflow-hidden">
+                <div className="relative overflow-hidden notification-mask">
                   <div className="bg-[rgba(40,40,40,.3)] aspect-[432/320]  p-[16px] rounded-[16px] w-[500px] h-fit ">
                     <div className="perspective-[2000px] perspective-origin-[50%]  transition-[smooth]">
                       <div className="notification flex flex-col gap-[10px] border-[1px] border-[hsla(0,0%,100%,.2)] p-[16px] rounded-[16px] bg-[rgba(40,40,40)] w-full absolute z-150 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(180px)translateX(calc(10%-3%))translateY(20%)]  preserve-3d  hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(180px)translateX(calc(10%-3%))translateY(1%)] transition-[10s] ">
@@ -573,8 +574,8 @@ const ProjectsSection = () => {
                             className="rounded-[50%] bg-[rgba(104,204,88,0.25)] "
                           >
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M12.6807 5.7029C12.9925 5.97566 13.0241 6.44948 12.7513 6.76121L9.71942 10.2263C9.56569 10.402 9.33892 10.4961 9.10596 10.4808C8.873 10.4656 8.66044 10.3427 8.53094 10.1485L6.76432 7.49855L4.37742 10.2263C4.10466 10.5381 3.63083 10.5696 3.31911 10.2969C3.00739 10.0241 2.97581 9.55028 3.24857 9.23856L6.28056 5.77356C6.43429 5.59788 6.66106 5.50379 6.89401 5.51905C7.12696 5.53432 7.33952 5.65718 7.46902 5.85142L9.23562 8.50133L11.6224 5.77347C11.8952 5.46174 12.369 5.43015 12.6807 5.7029Z"
                             ></path>
                           </svg>
@@ -598,8 +599,8 @@ const ProjectsSection = () => {
                             className="rounded-[50%] bg-[rgba(242,153,74,0.25)]"
                           >
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M9.62562 3.8314C9.85957 3.7977 10.0957 3.87627 10.2628 4.04341L12.5728 6.35341C12.8657 6.6463 12.8657 7.12117 12.5728 7.41407C12.28 7.70696 11.8051 7.70696 11.5122 7.41407L9.91096 5.81284L6.92594 11.2854C6.81276 11.4929 6.60838 11.6349 6.37442 11.6686C6.14047 11.7023 5.90433 11.6237 5.73719 11.4566L3.42719 9.14657C3.1343 8.85367 3.1343 8.3788 3.42719 8.08591C3.72008 7.79301 4.19496 7.79301 4.48785 8.08591L6.08908 9.68714L9.0741 4.2146C9.18728 4.00709 9.39166 3.86509 9.62562 3.8314Z"
                             ></path>
                           </svg>
@@ -623,8 +624,8 @@ const ProjectsSection = () => {
                             className="rounded-[50%] bg-[rgba(197,40,40,0.25)]"
                           >
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M12.6807 10.297C12.9925 10.0242 13.0241 9.5504 12.7513 9.23866L9.71942 5.77356C9.56569 5.59786 9.33892 5.50377 9.10596 5.51903C8.873 5.53429 8.66044 5.65716 8.53094 5.8514L6.76432 8.50133L4.37742 5.77354C4.10466 5.46182 3.63083 5.43024 3.31911 5.703C3.00739 5.97577 2.97581 6.44959 3.24857 6.76132L6.28056 10.2263C6.43429 10.402 6.66106 10.4961 6.89401 10.4808C7.12696 10.4656 7.33952 10.3427 7.46902 10.1485L9.23562 7.49855L11.6224 10.2264C11.8952 10.5381 12.369 10.5697 12.6807 10.297Z"
                             ></path>
                           </svg>
@@ -697,9 +698,9 @@ const ProjectsSection = () => {
                       <g opacity="0.4">
                         <path
                           fill="#62666D"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M26.412 20.35v5.463c0 .74.566 1.349 1.288 1.418l.137.007H33.3v4.512a1.9 1.9 0 01-1.9 1.9h-7.6a1.9 1.9 0 01-1.9-1.9v-9.5c0-1.05.85-1.9 1.9-1.9h2.612zm1.188 0l5.7 5.729h-4.75a.95.95 0 01-.95-.95V20.35z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                         <path
                           fill="#FEFFFE"
@@ -774,13 +775,13 @@ const ProjectsSection = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M7.4145 8.3381C7.68162 7.8873 8.31838 7.8873 8.5855 8.3381L11.896 13.925C12.2589 14.5374 11.6035 15.2506 10.9879 14.9132L8.10753 13.3343C8.04032 13.2975 7.95967 13.2975 7.89247 13.3343L5.0121 14.9132C4.39652 15.2506 3.74112 14.5374 4.10401 13.925L7.4145 8.3381Z"
                   ></path>
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M13.5 8C13.5 4.96243 11.0376 2.5 8 2.5C4.96243 2.5 2.5 4.96243 2.5 8C2.5 8.96927 2.75037 9.87822 3.18945 10.668L3.38867 10.999L3.42773 11.0654C3.60231 11.4033 3.4953 11.825 3.16992 12.0371C2.84468 12.249 2.41642 12.1766 2.17773 11.8809L2.13281 11.8184L2.00195 11.6104C1.36597 10.5558 1 9.31963 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8C15 9.40749 14.5834 10.7198 13.8672 11.8184L13.8223 11.8809C13.5836 12.1766 13.1553 12.249 12.8301 12.0371C12.4831 11.8109 12.3851 11.346 12.6113 10.999L12.8105 10.668C13.2496 9.87822 13.5 8.96927 13.5 8Z"
                   ></path>
                 </svg>
@@ -828,7 +829,7 @@ const ProjectsSection = () => {
                   <path
                     d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                     fill="var(--color-text-primary)"
-                    stroke-width="2"
+                    strokeWidth="2"
                     stroke-linejoin="round"
                   ></path>
                 </svg>
@@ -854,8 +855,8 @@ const ProjectsSection = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M3 9C3.55228 9 4 9.44772 4 10V13C4 13.5523 3.55228 14 3 14H2C1.44772 14 1 13.5523 1 13V10C1 9.44772 1.44772 9 2 9H3ZM14 6C14.5523 6 15 6.44772 15 7V13C15 13.5523 14.5523 14 14 14H13C12.4477 14 12 13.5523 12 13V7C12 6.44772 12.4477 6 13 6H14ZM8.5 2C9.05229 2 9.5 2.44772 9.5 3V13C9.5 13.5523 9.05229 14 8.5 14H7.5C6.94772 14 6.5 13.5523 6.5 13V3C6.5 2.44772 6.94772 2 7.5 2H8.5Z"
                   ></path>
                 </svg>
