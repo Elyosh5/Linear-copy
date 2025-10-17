@@ -4,7 +4,6 @@ import { useState } from "react";
 import CollaborativeDesk from "./svgs/CollaborateSvg";
 import FeedbackSvg from "./svgs/FeedbackSvg";
 import TextSvg from "./svgs/TextSvg";
-import Image from "next/image";
 
 const Collaborative = () => {
   return (
@@ -85,7 +84,7 @@ const ProjectsSection = () => {
               <div className="flex flex-col p-[12px] gap-[8px]">
                 <div className="flex items-center gap-[8px]">
                   <div className="">
-                    <Image
+                    <img
                       src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                       width="16"
                       height="16"
@@ -135,7 +134,7 @@ const ProjectsSection = () => {
               <div className="h-[1px] bg-[#34343a] w-full"></div>
               <div className="flex  items-center p-[12px] gap-[8px]">
                 <div className="">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/33f99f8b8fa79df7781b3db5cb14173849043518-2616x2616.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="14"
                     height="14"
@@ -292,16 +291,22 @@ const ProjectsSection = () => {
             </p>
           </div>
           <div className="plan-image flex flex-col justify-center items-center h-auto relative top-[-110px] opacity-50">
-            <Image
+            <img
               className=" max-w-[1600px]  "
               src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/25491170-d59e-427e-ee76-a69dcf080300/f=auto,dpr=2,q=95,fit=scale-down,metadata=none"
               alt=""
             />
           </div>
 
-          <div className="grid  grid-rows-2 lg:grid-cols-2 border-t-2 border-t-[hsla(0,0%,100%,.05)] border-b-[1px] border-b-[hsla(0,0%,100%,.05)] py-[50px] relative ">
-            <div className="pr-[50px]">
-              <div className="flex flex-col gap-10">
+          <div className="grid-modules grid gap-[32px] border-t-2 border-t-[hsla(0,0%,100%,.05)] border-b-[1px] border-b-[hsla(0,0%,100%,.05)] relative ">
+            <div
+              className="pr-[48px] py-[56px] relative"
+              style={{
+                gridArea: "a",
+                height: "100%",
+              }}
+            >
+              <div className="flex flex-col gap-10 after:h-full after:w-[2px] after:bg-[rgba(255,255,255,.05)] after:transform-[translateX(calc(32px/2+2px/2))] after:absolute after:top-0 after:bottom-0 after:right-0">
                 <div className="">
                   <h2 className="text-[21px]">Manage projects end-to-end</h2>
                   <p className="text-[17px]">
@@ -312,7 +317,7 @@ const ProjectsSection = () => {
                 <div className="mask-bottom ">
                   <div className="flex flex-col gap-[16px] ">
                     <h2>Project Overview</h2>
-                    <div className="flex items-center flex-nowrap">
+                    <div className="flex items-center flex-nowrap ">
                       <div className="min-w-[108px]">Properties</div>
                       <div className="flex gap-[20px]">
                         <div className="flex items-center gap-[5px] flex-row">
@@ -366,7 +371,7 @@ const ProjectsSection = () => {
                         <div className="">
                           <div className="flex">
                             <div className="radial-mask ">
-                              <Image
+                              <img
                                 src="https://webassets.linear.app/images/ornj730p/production/62175a4eea5abef20b7338bcc6565876ce937416-467x492.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                 width="18"
                                 height="18"
@@ -376,7 +381,7 @@ const ProjectsSection = () => {
                             </div>
                             <div className="">
                               <div className="radial-mask ml-[-5px] ">
-                                <Image
+                                <img
                                   src="https://webassets.linear.app/images/ornj730p/production/74717706c51f3c14ebe2851e0076def007ebafdd-1000x1000.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   width="18"
                                   height="18"
@@ -387,7 +392,7 @@ const ProjectsSection = () => {
                             </div>
                             <div className="">
                               <div className="radial-mask ml-[-5px] ">
-                                <Image
+                                <img
                                   src="https://webassets.linear.app/images/ornj730p/production/e71a8d13b2d26a3a53303810550d00b23cb87ce5-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   width="18"
                                   height="18"
@@ -398,7 +403,7 @@ const ProjectsSection = () => {
                             </div>
                             <div className="">
                               <div className="ml-[-5px] ">
-                                <Image
+                                <img
                                   src="https://webassets.linear.app/images/ornj730p/production/f45112e8aeed10023708772eb88872fa97b4291c-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   width="18"
                                   height="18"
@@ -485,7 +490,7 @@ const ProjectsSection = () => {
                                 d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                                 fill="var(--color-brand-bg)"
                                 strokeWidth="2"
-                                stroke-linejoin="round"
+                                strokeLinejoin="round"
                               ></path>
                             </svg>
                             <span>
@@ -507,7 +512,7 @@ const ProjectsSection = () => {
                                 d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                                 fill="var(--color-brand-bg)"
                                 strokeWidth="2"
-                                stroke-linejoin="round"
+                                strokeLinejoin="round"
                               ></path>
                             </svg>
                             <span>
@@ -530,7 +535,7 @@ const ProjectsSection = () => {
                                 fill="none"
                                 stroke="#F2C94C"
                                 strokeWidth="2"
-                                stroke-linejoin="round"
+                                strokeLinejoin="round"
                               ></path>
                             </svg>
                             <span>
@@ -547,101 +552,107 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
-            <div className="pl-[48px]">
+            <div
+              className="pl-[48px]  py-[56px]"
+              style={{
+                gridArea: "b",
+              }}
+            >
               <div className="flex flex-col">
                 <div className="">
-                  <h2>Project updates</h2>
-                  <p>
+                  <h2 className="text-[21px]">Project updates</h2>
+                  <p className="text-[17px]">
                     Communicate progress and project health with built-in
                     project updates.
                   </p>
                 </div>
-                <div className="relative overflow-hidden notification-mask">
-                  <div className="bg-[rgba(40,40,40,.3)] aspect-[432/320]  p-[16px] rounded-[16px] w-[500px] h-fit ">
-                    <div className="perspective-[2000px] perspective-origin-[50%]  transition-[smooth]">
-                      <div className="notification flex flex-col gap-[10px] border-[1px] border-[hsla(0,0%,100%,.2)] p-[16px] rounded-[16px] bg-[rgba(40,40,40)] w-full absolute z-150 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(180px)translateX(calc(10%-3%))translateY(20%)]  preserve-3d  hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(180px)translateX(calc(10%-3%))translateY(1%)] transition-[10s] ">
-                        <div className="flex items-center gap-[8px] ">
-                          <svg
-                            fill="#68cc58"
-                            color="#68cc58"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            role="img"
-                            focusable="false"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="rounded-[50%] bg-[rgba(104,204,88,0.25)] "
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M12.6807 5.7029C12.9925 5.97566 13.0241 6.44948 12.7513 6.76121L9.71942 10.2263C9.56569 10.402 9.33892 10.4961 9.10596 10.4808C8.873 10.4656 8.66044 10.3427 8.53094 10.1485L6.76432 7.49855L4.37742 10.2263C4.10466 10.5381 3.63083 10.5696 3.31911 10.2969C3.00739 10.0241 2.97581 9.55028 3.24857 9.23856L6.28056 5.77356C6.43429 5.59788 6.66106 5.50379 6.89401 5.51905C7.12696 5.53432 7.33952 5.65718 7.46902 5.85142L9.23562 8.50133L11.6224 5.77347C11.8952 5.46174 12.369 5.43015 12.6807 5.7029Z"
-                            ></path>
-                          </svg>
-                          <span className="text-[#68cc58]">On track</span>
-                        </div>
-                        <h3>We are ready to launch next Thursday</h3>
-                        <span className="text-[#62666d]">Sep 8</span>
+                <div className="notification-container  aspect-[432/320]  p-[16px] rounded-[16px] w-[500px] max-w-full max-h-full contain-strict isolate h-fit  relative overflow-hidden">
+                  <div className=" perspective-[2000px] perspective-origin-[50%] h-full w-full transition-[smooth] ">
+                    <div className="notification hover: group flex flex-col w-[500px] h-fit m-auto gap-[10px]  bg-[rgba(40,40,40,.2)] border-[1px] border-[rgba(255,255,255,.1)] p-[16px] rounded-[16px]  hover:bg-[rgba(255,255,255,.08)]  absolute top-0 bottom-0 left-0 right-0 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(calc(-1*180px))translateX(calc(10%+3%))translateY(-15%)]      hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(calc(-1*180px))translateX(calc(10%+3%))translateY(-25%)]">
+                      <div
+                        className="flex items-center gap-[8px] opacity-[.2] group-hover:opacity-[1]
+"
+                      >
+                        <svg
+                          fill="#c52828"
+                          color="#c52828"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          role="img"
+                          focusable="false"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="rounded-[50%] bg-[rgba(197,40,40,0.25)]"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M12.6807 10.297C12.9925 10.0242 13.0241 9.5504 12.7513 9.23866L9.71942 5.77356C9.56569 5.59786 9.33892 5.50377 9.10596 5.51903C8.873 5.53429 8.66044 5.65716 8.53094 5.8514L6.76432 8.50133L4.37742 5.77354C4.10466 5.46182 3.63083 5.43024 3.31911 5.703C3.00739 5.97577 2.97581 6.44959 3.24857 6.76132L6.28056 10.2263C6.43429 10.402 6.66106 10.4961 6.89401 10.4808C7.12696 10.4656 7.33952 10.3427 7.46902 10.1485L9.23562 7.49855L11.6224 10.2264C11.8952 10.5381 12.369 10.5697 12.6807 10.297Z"
+                          ></path>
+                        </svg>
+                        <span className="text-[#c52828]">Off track</span>
                       </div>
-                      <div className="notification flex flex-col gap-[10px] border-[1px] border-[hsla(0,0%,100%,.2)] p-[16px] rounded-[16px] bg-[rgba(40,40,40)] w-full absolute z-100 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(0px)translateX(10%)translateY(21%)] hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(0px)translateX(10%)translateY(-1%)]">
-                        <div className="flex items-center gap-[8px]">
-                          <svg
-                            fill="#f2994a"
-                            color="#f2994a"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            role="img"
-                            focusable="false"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="rounded-[50%] bg-[rgba(242,153,74,0.25)]"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M9.62562 3.8314C9.85957 3.7977 10.0957 3.87627 10.2628 4.04341L12.5728 6.35341C12.8657 6.6463 12.8657 7.12117 12.5728 7.41407C12.28 7.70696 11.8051 7.70696 11.5122 7.41407L9.91096 5.81284L6.92594 11.2854C6.81276 11.4929 6.60838 11.6349 6.37442 11.6686C6.14047 11.7023 5.90433 11.6237 5.73719 11.4566L3.42719 9.14657C3.1343 8.85367 3.1343 8.3788 3.42719 8.08591C3.72008 7.79301 4.19496 7.79301 4.48785 8.08591L6.08908 9.68714L9.0741 4.2146C9.18728 4.00709 9.39166 3.86509 9.62562 3.8314Z"
-                            ></path>
-                          </svg>
-                          <span className="text-[#f2994a]">At risk</span>
-                        </div>
-                        <h3>Progress slowed down last week because…</h3>
-                        <span className="text-[#62666d]">Oct 27</span>
+                      <h3>
+                        Unexpected roadblocks forced us to take a different…
+                      </h3>
+                      <span className="text-[#62666d]">Oct 27</span>
+                    </div>
+                    <div className="notification flex flex-col w-[500px] h-fit m-auto gap-[10px]  bg-[rgba(40,40,40,.2)] border-[1px] border-[rgba(255,255,255,.1)] p-[16px] rounded-[16px] hover:bg-[rgba(255,255,255,.08)]  absolute top-0 bottom-0 left-0 right-0 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(0px)translateX(10%)translateY(-15%)]     hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(0px)translateX(10%)translateY(-25%)]">
+                      <div className="flex items-center gap-[8px] opacity-[.2] group-hover:opacity-[1]">
+                        <svg
+                          fill="#f2994a"
+                          color="#f2994a"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          role="img"
+                          focusable="false"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="rounded-[50%] bg-[rgba(242,153,74,0.25)]"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M9.62562 3.8314C9.85957 3.7977 10.0957 3.87627 10.2628 4.04341L12.5728 6.35341C12.8657 6.6463 12.8657 7.12117 12.5728 7.41407C12.28 7.70696 11.8051 7.70696 11.5122 7.41407L9.91096 5.81284L6.92594 11.2854C6.81276 11.4929 6.60838 11.6349 6.37442 11.6686C6.14047 11.7023 5.90433 11.6237 5.73719 11.4566L3.42719 9.14657C3.1343 8.85367 3.1343 8.3788 3.42719 8.08591C3.72008 7.79301 4.19496 7.79301 4.48785 8.08591L6.08908 9.68714L9.0741 4.2146C9.18728 4.00709 9.39166 3.86509 9.62562 3.8314Z"
+                          ></path>
+                        </svg>
+                        <span className="text-[#f2994a]">At risk</span>
                       </div>
-                      <div className="notification flex flex-col gap-[10px] border-[1px] border-[hsla(0,0%,100%,.3)] p-[16px] rounded-[16px]  bg-[rgb(40,40,40,.2)]  w-full absolute z-0 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(0px)translateX(3%)translateY(-20%)] hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(0px)translateX(3%)translateY(-40%)]">
-                        <div className="flex items-center gap-[8px]">
-                          <svg
-                            fill="#c52828"
-                            color="#c52828"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            role="img"
-                            focusable="false"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="rounded-[50%] bg-[rgba(197,40,40,0.25)]"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M12.6807 10.297C12.9925 10.0242 13.0241 9.5504 12.7513 9.23866L9.71942 5.77356C9.56569 5.59786 9.33892 5.50377 9.10596 5.51903C8.873 5.53429 8.66044 5.65716 8.53094 5.8514L6.76432 8.50133L4.37742 5.77354C4.10466 5.46182 3.63083 5.43024 3.31911 5.703C3.00739 5.97577 2.97581 6.44959 3.24857 6.76132L6.28056 10.2263C6.43429 10.402 6.66106 10.4961 6.89401 10.4808C7.12696 10.4656 7.33952 10.3427 7.46902 10.1485L9.23562 7.49855L11.6224 10.2264C11.8952 10.5381 12.369 10.5697 12.6807 10.297Z"
-                            ></path>
-                          </svg>
-                          <span className="text-[#c52828]">Off track</span>
-                        </div>
-                        <h3>
-                          Unexpected roadblocks forced us to take a different…
-                        </h3>
-                        <span className="text-[#62666d]">Oct 27</span>
+                      <h3>Progress slowed down last week because…</h3>
+                      <span className="text-[#62666d]">Oct 27</span>
+                    </div>
+
+                    <div className="notification flex flex-col w-[500px] h-fit m-auto gap-[10px] bg-[rgba(40,40,40,.4)] border-[1px] border-[rgba(255,255,255,.1)] p-[16px] rounded-[16px] hover:bg-[rgba(255,255,255,.08)]  absolute top-0 bottom-0 left-0 right-0 transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(180px)translateX(calc(10%-3%))translateY(-15%)]  preserve-3d  hover:transform-[skewY(-4deg)rotateX(-14deg)rotateY(20deg)translateZ(180px)translateX(calc(10%-3%))translateY(-25%)] transition-[10s] ">
+                      <div className="flex items-center gap-[8px] ">
+                        <svg
+                          fill="#68cc58"
+                          color="#68cc58"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          role="img"
+                          focusable="false"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="rounded-[50%] bg-[rgba(104,204,88,0.25)] "
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M12.6807 5.7029C12.9925 5.97566 13.0241 6.44948 12.7513 6.76121L9.71942 10.2263C9.56569 10.402 9.33892 10.4961 9.10596 10.4808C8.873 10.4656 8.66044 10.3427 8.53094 10.1485L6.76432 7.49855L4.37742 10.2263C4.10466 10.5381 3.63083 10.5696 3.31911 10.2969C3.00739 10.0241 2.97581 9.55028 3.24857 9.23856L6.28056 5.77356C6.43429 5.59788 6.66106 5.50379 6.89401 5.51905C7.12696 5.53432 7.33952 5.65718 7.46902 5.85142L9.23562 8.50133L11.6224 5.77347C11.8952 5.46174 12.369 5.43015 12.6807 5.7029Z"
+                          ></path>
+                        </svg>
+                        <span className="text-[#68cc58]">On track</span>
                       </div>
+                      <h3>We are ready to launch next Thursday</h3>
+                      <span className="text-[#62666d]">Sep 8</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="absolute left-1/2 top-0 bottom-0 w-px bg-[hsla(0,0%,100%,.1)] transform -translate-x-1/2"></div>
           </div>
           <div className="grid-root  py-[60px]">
             <div className="plan-text pt-[60px]">
@@ -753,7 +764,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="w-full h-[1px] mb-[48px] bg-[hsla(0,0%,100%,.05)] lg"></div>
+          <div className="w-full h-[1px] mb-[48px] bg-[hsla(0,0%,100%,.05)] "></div>
           <div className="grid-root ">
             <div
               className="grid-root-1  flex flex-col gap-[10px]"
@@ -830,7 +841,7 @@ const ProjectsSection = () => {
                     d="M7.3406 2.32C7.68741 1.89333 8.31259 1.89333 8.6594 2.32L12.7903 7.402C13.0699 7.74597 13.0699 8.25403 12.7903 8.598L8.6594 13.68C8.31259 14.1067 7.68741 14.1067 7.3406 13.68L3.2097 8.598C2.9301 8.25403 2.9301 7.74597 3.2097 7.402L7.3406 2.32Z"
                     fill="var(--color-text-primary)"
                     strokeWidth="2"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
                 <h4>Milestones</h4>

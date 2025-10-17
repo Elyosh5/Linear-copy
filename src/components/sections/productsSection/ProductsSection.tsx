@@ -1,6 +1,5 @@
 "use client;";
 
-import Image from "next/image";
 
 const IconButton = () => {
   return (
@@ -72,7 +71,7 @@ const ProductsSection = () => {
                       maskImage: "linear-gradient(#000 70%,transparent 90%)",
                     }}
                   >
-                    <Image
+                    <img
                       className="min-w-[336px]"
                       src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/93514696-592a-4764-aa98-b6101349a100/f=auto,dpr=2,q=95,fit=scale-down,metadata=none"
                       alt=""
@@ -96,7 +95,7 @@ const ProductsSection = () => {
                       maskImage: "linear-gradient(#000 70%,transparent 90%)",
                     }}
                   >
-                    <Image
+                    <img
                       className="min-w-[336px]"
                       src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/5a4ff140-41a2-42dd-0723-e14cccc3e300/f=auto,dpr=2,q=95,fit=scale-down,metadata=none"
                       alt=""
@@ -120,7 +119,7 @@ const ProductsSection = () => {
                       maskImage: "linear-gradient(#000 70%,transparent 90%)",
                     }}
                   >
-                    <Image
+                    <img
                       className="min-w-[336px]"
                       src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/0068f657-fe3f-47e9-6819-0ba9e6533900/f=auto,dpr=2,q=95,fit=scale-down,metadata=none"
                       alt=""

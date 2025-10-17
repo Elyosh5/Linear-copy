@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const HeroSvg = () => {
@@ -85,7 +84,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="64">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/e522be49c136f6b81a1c5cb3aa7b2075f78404c0-1305x1444.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -140,7 +139,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="120">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/f45112e8aeed10023708772eb88872fa97b4291c-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -251,7 +250,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="232">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/62175a4eea5abef20b7338bcc6565876ce937416-467x492.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -307,7 +306,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="288">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -361,7 +360,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="344">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/4472d232811671536455f5768bf0a6584d39c755-2186x2186.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -417,7 +416,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="400">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/e71a8d13b2d26a3a53303810550d00b23cb87ce5-200x200.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -472,7 +471,7 @@ const HeroSvg = () => {
             ></path>
             <foreignObject width="24" height="24" x="20" y="456.02">
               <div className="sc-ef15f601-0 itoEXV">
-                <Image
+                <img
                   src="https://webassets.linear.app/images/ornj730p/production/74717706c51f3c14ebe2851e0076def007ebafdd-1000x1000.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                   width="24"
                   height="24"
@@ -837,7 +836,7 @@ const HeroSvg = () => {
               ></path>
               <foreignObject width="16" height="16" x="472.676" y="720.522">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -866,7 +865,7 @@ const HeroSvg = () => {
               ></path>
               <foreignObject width="16" height="16" x="1258.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -885,7 +884,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1267.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -904,7 +903,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1276.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -923,7 +922,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1285.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -942,7 +941,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1294.5" y="678.022">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -1009,7 +1008,7 @@ const HeroSvg = () => {
               ></rect>
               <foreignObject width="16" height="16" x="1130" y="605">
                 <div className="sc-ef15f601-0 dXWIEl">
-                  <Image
+                  <img
                     src="https://webassets.linear.app/images/ornj730p/production/835fa19a98f9cd22cfb8da73cc921aa1027edeb6-2048x2048.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                     width="16"
                     height="16"
@@ -1203,10 +1202,10 @@ const HeroSvg = () => {
               height="32"
               x="1041"
               y="6"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 result="hardAlpha"
@@ -1231,10 +1230,10 @@ const HeroSvg = () => {
               height="57.281"
               x="1050.4"
               y="-4.636"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 result="hardAlpha"
@@ -1259,10 +1258,10 @@ const HeroSvg = () => {
               height="32"
               x="1191"
               y="6"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 result="hardAlpha"
@@ -1287,10 +1286,10 @@ const HeroSvg = () => {
               height="56.992"
               x="1199.7"
               y="-4.347"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 result="hardAlpha"
@@ -1315,10 +1314,10 @@ const HeroSvg = () => {
               height="32"
               x="1278"
               y="6"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 result="hardAlpha"
@@ -1343,10 +1342,10 @@ const HeroSvg = () => {
               height="57.222"
               x="1287.21"
               y="-4.577"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 result="hardAlpha"
@@ -1373,8 +1372,8 @@ const HeroSvg = () => {
               y2="32"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#292D30"></stop>
-              <stop offset="1" stop-color="#292D30" stop-opacity="0"></stop>
+              <stop stopColor="#292D30"></stop>
+              <stop offset="1" stopColor="#292D30" stopOpacity="0"></stop>
             </linearGradient>
             <linearGradient
               id="paint1_linear_7846_49627"
@@ -1384,8 +1383,8 @@ const HeroSvg = () => {
               y2="32"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#292D30"></stop>
-              <stop offset="1" stop-color="#292D30" stop-opacity="0"></stop>
+              <stop stopColor="#292D30"></stop>
+              <stop offset="1" stopColor="#292D30" stopOpacity="0"></stop>
             </linearGradient>
             <linearGradient
               id="paint2_linear_7846_49627"
@@ -1395,8 +1394,8 @@ const HeroSvg = () => {
               y2="32"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#292D30"></stop>
-              <stop offset="1" stop-color="#292D30" stop-opacity="0"></stop>
+              <stop stopColor="#292D30"></stop>
+              <stop offset="1" stopColor="#292D30" stopOpacity="0"></stop>
             </linearGradient>
             <linearGradient
               id="paint3_linear_7846_49627"
@@ -1406,8 +1405,8 @@ const HeroSvg = () => {
               y2="884"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#fff"></stop>
-              <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+              <stop stopColor="#fff"></stop>
+              <stop offset="1" stopColor="#fff" stopOpacity="0"></stop>
             </linearGradient>
           </defs>
         </svg>

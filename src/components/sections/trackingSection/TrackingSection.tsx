@@ -1,6 +1,5 @@
 "use client;";
 
-import Image from "next/image";
 
 const TrackingSection = () => {
   return (
@@ -41,7 +40,7 @@ const TrackingSection = () => {
               </p>
             </div>
             <div className="tracking-screenshot overflow-hidden relative flex flex-col items-center pointer-events-none justify-center before:block before:mt-[-4%] after:block after:mb-[-6%]  ">
-              <Image
+              <img
                 alt="A screenshot of an issue board view in Linear showing three high-priority tasks"
                 data-nosnippet="true"
                 data-loaded="true"
@@ -106,7 +105,7 @@ const TrackingSection = () => {
                             ></path>
                             <path
                               stroke="#525355"
-                              stroke-linecap="round"
+                              strokeLinecap="round"
                               strokeWidth="1.732"
                               d="M17.135 78.65H26.1a133.08 133.08 0 0039.795-6.09l1.168-.367a123.893 123.893 0 0029.73-13.87v0a123.889 123.889 0 0158.543-19.267l7.007-.467a139.042 139.042 0 0035.617-7.13l6.56-2.236 29.873-5.974 37.345-13.028a139.078 139.078 0 0119.1-5.171l2.027-.397a139.04 139.04 0 0126.698-2.587h22.373"
                             ></path>
@@ -117,7 +116,7 @@ const TrackingSection = () => {
                             ></path>
                             <path
                               stroke="#fff"
-                              stroke-linecap="round"
+                              strokeLinecap="round"
                               strokeWidth="0.999"
                               d="M17.135 153.081v7.156"
                               opacity="0.1"
@@ -128,7 +127,7 @@ const TrackingSection = () => {
                             ></path>
                             <path
                               stroke="#fff"
-                              stroke-linecap="round"
+                              strokeLinecap="round"
                               strokeWidth="0.999"
                               d="M344.653 153.081v7.156"
                               opacity="0.1"
@@ -139,7 +138,7 @@ const TrackingSection = () => {
                             ></path>
                             <path
                               stroke="#fff"
-                              stroke-linecap="round"
+                              strokeLinecap="round"
                               strokeWidth="0.999"
                               d="M180.621 153v7.156"
                               opacity="0.1"
@@ -169,7 +168,7 @@ const TrackingSection = () => {
                             <div className="z-0 relative bg-[hsla(0,0%,100%,.05)] border-1 border-[hsla(0,0%,100%,.1)] px-[15px] py-[10px] rounded-[8px] ">
                               <p>Users report unexpected rate limiting</p>
                               <div className="flex gap-[8px] items-center">
-                                <Image
+                                <img
                                   src="https://webassets.linear.app/images/ornj730p/production/74717706c51f3c14ebe2851e0076def007ebafdd-1000x1000.png?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   alt="Avatar of Paco"
                                   className="rounded-[50%] h-[18px] w-[18px]"
@@ -235,7 +234,7 @@ const TrackingSection = () => {
                             <div className="px-[15px] py-[10px]">
                               <p>RangeError: Index 0 out of range</p>
                               <div className="flex gap-[8px] items-center text-[rgb(138,143,152)]">
-                                <Image
+                                <img
                                   src="https://webassets.linear.app/images/ornj730p/production/265a1c61a0335e4df0248ea38bf642ebb3693bda-2264x2256.jpg?w=72&amp;q=95&amp;auto=format&amp;dpr=2"
                                   alt="Avatar of Romain"
                                   className="rounded-[50%] h-[18px] w-[18px]"
@@ -249,7 +248,7 @@ const TrackingSection = () => {
                                 in via email generates multiple emails
                               </p>
                               <div className="flex gap-[8px] items-center text-[rgb(138,143,152)]">
-                                <Image
+                                <img
                                   src="https://webassets.linear.app/images/ornj730p/production/4d081a7a9ee2575014ab150f2d74cc3e2266a937-300x300.jpg?w=72&q=95&auto=format&dpr=2"
                                   alt="Avatar of Tuomas"
                                   className="rounded-[50%] h-[18px] w-[18px]"
@@ -309,7 +308,7 @@ const TrackingSection = () => {
                   gridRow: `1 / 1`,
                 }}
               >
-                <Image
+                <img
                   alt="A screenshot of a Cycle time chart"
                   data-nosnippet="true"
                   data-loaded="true"
