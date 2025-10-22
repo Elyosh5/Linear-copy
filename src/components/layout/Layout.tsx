@@ -7,6 +7,7 @@ import ProductsSection from "../sections/productsSection/ProductsSection";
 import ProjectsSection from "../sections/projectsSection/ProjectsSection";
 import TrackingSection from "../sections/trackingSection/TrackingSection";
 import AiSection from "../sections/aiSection/AiSection";
+import WorkflowSection from "../sections/workflowSection/WorkflowSection";
 
 const Layout = () => {
   return (
@@ -19,6 +20,7 @@ const Layout = () => {
         <AiSection />
         <ProjectsSection />
         <TrackingSection />
+        <WorkflowSection />
       </main>
     </div>
   );
