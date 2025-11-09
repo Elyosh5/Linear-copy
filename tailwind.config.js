@@ -6,7 +6,7 @@ export default {
       screens: {
         portrait: { raw: "(orientation: portrait)" },
         landscape: { raw: "(orientation: landscape)" },
-        tablet: { max: "768px" }, // ← Changed this
+        tablet: { max: "920px" },
       },
       boxShadow: {
         custom:

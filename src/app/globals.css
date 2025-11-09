@@ -17,6 +17,15 @@
   --mask-bottom3: linear-gradient(to bottom, #000 30%, transparent 80%);
   --mask-right3: linear-gradient(to right, #000 40%, transparent 90%);
   --color-bg-primary: #08090a;
+  --grid-areas-default4: "a a a a a . . . . . ." "b b b b b . . . . . ."
+    "c c c c c . . . . . .";
+  --grid-areas-tablet4: "a a a a a a a a" "b b b b b b b b" "c c c c c c c c";
+  --grid-areas-mobile4: "a a a a" "b b b b" "c c c c";
+  --grid-columns4: 12;
+  --grid-gap4: 32px;
+  --grid-areas-default5: "a a a a a a a a b b b b";
+  --grid-areas-tablet5: "a a a a b b b b";
+  --grid-areas-mobile5: "a a a a" "b b b b";
 }
 
 @theme inline {
@@ -83,7 +92,18 @@ product-h1 {
 
 section {
   padding: 160px 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05),
+    transparent 20%
+  );
+  display: block;
 }
+
+section:nth-child(-n + 3) {
+  background: none;
+}
+
 .HeroSection {
   padding: 72px 0 0 0;
 }
@@ -234,9 +254,24 @@ p {
   grid-template-areas: "a a a b b b c c c d d d";
 }
 
+.grid-root-2 {
+  grid-template-areas: " a a a a a a . b b b b b ";
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 40px;
+}
+
 @media (max-width: 1024px) {
   .grid-root {
     grid-template-areas: var(--grid-areas-laptop, var(--grid-areas-default2));
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-root-2 {
+    grid-template-colums: repeat(8, minmax(0, 1fr));
+    gap: 20px;
+    grid-template-areas: var(--grid-areas-tablet, var(--grid-areas-default));
   }
 }
 
@@ -370,4 +405,86 @@ p {
       #08090a 100%
     ),
     linear-gradient(150deg, #08090a 20%, transparent 30%);
+}
+
+.WorkflowSection {
+  p {
+    color: white;
+  }
+}
+
+.workflow-section-image::before {
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(0deg, #0f1011 0%, transparent 66.52%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.workflow-section-image::after {
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(0deg, transparent 79.32%, #0f1011 100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snap-center:nth-of-type(3) .workflow-section-image::before {
+  background: linear-gradient(0deg, #0f1011 16.52%, transparent 100%);
+  position: absolute;
+}
+
+.snap-center:nth-of-type(3) .workflow-section-image::after {
+  background: linear-gradient(90deg, transparent 0%, #0f1011 100%);
+  position: absolute;
+}
+.snap-center:nth-of-type(1) .workflow-section-image::after {
+  background: linear-gradient(90deg, transparent 0%, #0f1011 100%);
+
+  position: absolute;
+}
+.snap-center:nth-of-type(2) .workflow-section-image::after {
+  background: linear-gradient(90deg, transparent 0%, #0f1011 100%);
+
+  position: absolute;
+}
+
+.UnderTheHoodSection-grid-module {
+  grid-template-columns: repeat(var(--grid-columns4), minmax(0, 1fr));
+  grid-gap: var(--grid-gap4);
+  gap: var(--grid-gap4);
+  grid-template-areas: var(--grid-areas-default4);
+  display: grid;
+}
+
+@media (max-width: 920px) {
+  .UnderTheHoodSection-grid-module {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-template-areas: var(--grid-areas-tablet4, var(--grid-areas-default4));
+  }
+}
+
+.PreFooterSection {
+  background: none;
+}
+
+.preFooterContent {
+  grid-template-columns: repeat(var(--grid-columns4), minmax(0, 1fr));
+  grid-gap: var(--grid-gap4);
+  gap: var(--grid-gap4);
+  grid-template-areas: var(--grid-areas-default5);
+  display: grid;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .preFooterContent {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+
+    grid-template-areas: var(--grid-areas-tablet5, var(--grid-areas-default5));
+  }
 }
