@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const Login = () => {
   return (
     <div className=" Login">
@@ -36,7 +38,7 @@ const Login = () => {
               </button>
             </div>
             <p className="text-[14px] flex gap-[5px]">
-              Don't have an account?{" "}
+              Don't have an account?
               <span className="inline-block group">
                 <a
                   className="relative text-white group-hover:underline group-hover:underline-offset-[2.5px] decoration-[1.6px] decoration-[rgb(150,151,153)] "
@@ -45,14 +47,14 @@ const Login = () => {
                   Sign Up
                 </a>
               </span>
-              or{" "}
+              or
               <span className="inline-block group">
-                <a
+                <Link
                   className="relative text-white group-hover:underline group-hover:underline-offset-[2.5px] decoration-[1.6px] decoration-[rgb(150,151,153)] "
                   href="/"
                 >
                   Learn more
-                </a>
+                </Link>
               </span>
             </p>
           </div>

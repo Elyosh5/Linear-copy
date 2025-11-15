@@ -1,7 +1,5 @@
 "use client";
 
-import Logo from "@/components/common/Logo";
-
 const Footer = () => {
   return (
     <footer className="border-t Footer border-t-[#23252a]">
