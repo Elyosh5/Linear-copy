@@ -1,6 +1,5 @@
 "use client;";
 
-
 const IconButton = () => {
   return (
     <div className="flex items-center justify-center w-[40px] h-[40px] border-2 border-[rgba(255,255,255,.05)] rounded-[100%] ">
@@ -38,7 +37,7 @@ const ProductsSection = () => {
               <button className="flex items-center gap-1.5 text-white">
                 Make the switch{" "}
                 <svg
-                  className="page_chevronLink__2jbC0"
+                  className=""
                   color="#f7f8f8"
                   width="16"
                   height="16"

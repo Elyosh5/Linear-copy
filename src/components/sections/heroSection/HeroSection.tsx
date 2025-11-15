@@ -34,14 +34,15 @@ const HeroSection = () => {
               </a>
               <a type="button" className="flex items-center gap-2" href="">
                 <span className="sc-11258a8b-0 hJEgQu">
-                  Introducing Linear for Agents
+                  New: Linear agent or Slack
                 </span>
                 <svg
                   className=""
+                  color="#62666d"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
-                  fill="white"
+                  fill="#62666d"
                   role="img"
                   focusable="false"
                   aria-hidden="true"

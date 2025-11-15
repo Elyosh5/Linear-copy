@@ -58,7 +58,6 @@ li {
   list-style: none;
 }
 a {
-  text-decoration: none;
 }
 .container {
   width: 100%;
@@ -487,4 +486,20 @@ p {
 
     grid-template-areas: var(--grid-areas-tablet5, var(--grid-areas-default5));
   }
+}
+
+.Terms strong {
+  color: #f7f8f8;
+}
+.Terms p {
+  color: #d0d6e0;
+  margin-top: 16px;
+}
+.Terms .content * {
+  max-width: 624px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Terns h2 {
+  font-size: 18px;
 }

@@ -25,7 +25,7 @@ const Header = () => {
               >
                 <a
                   href="/features"
-                  className="flex items-center tablet:text-[299px]  h-[32px] text-[14px] p-[0_12px] font-medium before:absolute before:inset-[0_-8] before:z-0 after:absolute after:left-[32px] after:right-[32px] after:top-full after:h-[32px]"
+                  className="flex items-center tablet:text-[299px]  h-[32px] text-[14px] p-[0_12px] font-medium "
                 >
                   Product
                 </a>
@@ -113,12 +113,18 @@ const Header = () => {
               </li>
               <div className="buttons flex flex-[1_1]  justify-end gap-[8px] ">
                 <li className="flex items-center text-[#8A8F98] h-[32px] text-[14px]">
-                  <a className="flex items-center w-full h-full p-[0px_12px] text-[#8A8F98] text-[14px]">
+                  <a
+                    href="/login"
+                    className="flex items-center w-full h-full p-[0px_12px] text-[#8A8F98] text-[14px]"
+                  >
                     Log in
                   </a>
                 </li>
                 <li className="flex items-center text-[#8A8F98] h-[32px] text-[14px]  ">
-                  <a className="flex items-center w-full h-full p-[0px_12px] rounded-[8px] bg-[#e6e6e6] text-[#08090a] shadow-[0px_8px_2px_0px_transparent,0px_5px_2px_0px_rgba(0,0,0,.01),0px_3px_2px_0px_rgba(0,0,0,.04),0px_1px_1px_0px_rgba(0,0,0,.07),0px_0px_1px_0px_rgba(0,0,0,.08)] ">
+                  <a
+                    href="/signup"
+                    className="flex items-center w-full h-full p-[0px_12px] rounded-[8px] bg-[#e6e6e6] text-[#08090a] shadow-[0px_8px_2px_0px_transparent,0px_5px_2px_0px_rgba(0,0,0,.01),0px_3px_2px_0px_rgba(0,0,0,.04),0px_1px_1px_0px_rgba(0,0,0,.07),0px_0px_1px_0px_rgba(0,0,0,.08)] "
+                  >
                     Sign up
                   </a>
                 </li>
