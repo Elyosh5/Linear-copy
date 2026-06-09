@@ -1,7 +1,7 @@
 "use client";
 
+import { signIn } from "next-auth/react";
 import Link from "next/link";
-
 const Login = () => {
   return (
     <div className=" Login">
@@ -24,7 +24,10 @@ const Login = () => {
               <h1 className="text-[20px] text-center">Log in to Linear</h1>
             </div>
             <div className="flex w-[288px] flex-col items-center gap-[16px]">
-              <button className="h-[48px]  text-[14px] rounded-[6px] w-full bg-[rgb(87,91,199)] hover:bg-[rgb(94,105,209)]">
+              <button
+                onClick={() => signIn("google", { callbackUrl: "/" })}
+                className="h-[48px]  text-[14px] rounded-[6px] w-full bg-[rgb(87,91,199)] hover:bg-[rgb(94,105,209)]"
+              >
                 Continue with Google
               </button>
               <button className="h-[48px]  text-[14px] rounded-[6px] w-full hover:bg-[rgb(38,40,47)] border border-[rgb(44,46,51)]  bg-[rgb(30,32,37)]">

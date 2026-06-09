@@ -1,11 +1,13 @@
 "use client";
 
+import { signIn } from "next-auth/react";
+
 const SignUp = () => {
   return (
     <div className=" Login">
       <div className="container">
         <div className="flex flex-col items-center justify-center h-[100vh]">
-          <div className="w-[288px] flex flex-col items-center justify-center gap-[32px]">
+          <div className="w-[288px] flex flex-col items-center justify-center gap-[22px]">
             <div className="">
               <svg
                 width="40"
@@ -22,13 +24,16 @@ const SignUp = () => {
               <h1 className="text-[20px] text-center">Create your workspace</h1>
             </div>
             <div className="flex w-[288px] flex-col items-center gap-[16px]">
-              <button className="h-[48px]  text-[14px] rounded-[6px] w-full bg-[rgb(87,91,199)] hover:bg-[rgb(94,105,209)]">
+              <button
+                onClick={() => signIn("google", { callbackUrl: "/" })}
+                className="h-[42px] rounded-3xl  text-[14px]  w-full bg-[rgb(87,91,199)] hover:bg-[rgb(94,105,209)]"
+              >
                 Continue with Google
               </button>
-              <button className="h-[48px]  text-[14px] rounded-[6px] w-full hover:bg-[rgb(38,40,47)] border border-[rgb(44,46,51)]  bg-[rgb(30,32,37)]">
+              <button className="h-[42px] rounded-3xl  text-[14px]  w-full hover:bg-[#252627]   bg-[#1c1c1d]">
                 Continue with email
               </button>
-              <button className="h-[48px]  text-[14px] rounded-[6px] w-full hover:bg-[rgb(38,40,47)] border border-[rgb(44,46,51)]  bg-[rgb(30,32,37)]">
+              <button className="h-[42px] rounded-3xl  text-[14px]  w-full hover:bg-[#252627]   bg-[#1c1c1d]">
                 Continue with SAML SSO
               </button>
             </div>

@@ -1,8 +1,10 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
   --mask-bottom: linear-gradient(to bottom, #000 50%, transparent 100%);
   --mask-right: linear-gradient(to right, #000 20%, transparent 100%);
   --mask-top: linear-gradient(to top, #000 40%, transparent 100%);
@@ -26,26 +28,6 @@
   --grid-areas-default5: "a a a a a a a a b b b b";
   --grid-areas-tablet5: "a a a a b b b b";
   --grid-areas-mobile5: "a a a a" "b b b b";
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -81,8 +63,12 @@ a {
 }
 
 * {
-  font-family: "Inter Variable", "SF Pro Display", -apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family:
+    "Inter Variable",
+    "SF Pro Display",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
 }
 
 product-h1 {
@@ -216,11 +202,8 @@ p {
   content: "";
   pointer-events: none;
   z-index: 1;
-  background: linear-gradient(
-      to bottom,
-      var(--color-bg-primary) 0%,
-      transparent 30%
-    ),
+  background:
+    linear-gradient(to bottom, var(--color-bg-primary) 0%, transparent 30%),
     linear-gradient(to right, transparent 60%, var(--color-bg-primary) 100%);
   position: absolute;
   top: 0;
@@ -395,7 +378,8 @@ p {
 }
 
 .insight-img:after {
-  background: linear-gradient(to bottom, transparent 70%, #08090a 100%),
+  background:
+    linear-gradient(to bottom, transparent 70%, #08090a 100%),
     linear-gradient(
       to right,
       #08090a 0,
@@ -461,6 +445,63 @@ p {
   display: grid;
 }
 
+.Terms strong {
+  color: #f7f8f8;
+}
+.Terms p {
+  color: #d0d6e0;
+  margin-top: 16px;
+}
+.Terms .content * {
+  max-width: 624px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Terns h2 {
+  font-size: 18px;
+}
+
+.user-page {
+  background-color: lch(4.52 0.3 272);
+  border: 1px solid lch(8.84 1.38 272);
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-align: stretch;
+  place-items: stretch;
+  isolation: isolate;
+  border-radius: 12px;
+  box-shadow:
+    lch(0 0 0 / 0.04) 0px 4px 4px -1px,
+    lch(0 0 0 / 0.08) 0px 1px 1px 0px;
+  margin: 8px 8px 8px 0px;
+  transition:
+    height 0.2s ease-out,
+    min-height 0.2s ease-out;
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+.aside-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: lch(60.307% 1 272 / 1);
+  font-size: 14px;
+}
+
+.aside-link:hover,
+.aside-link:hover svg {
+  color: white;
+  fill: white;
+}
+
+.sidebar-third-child .aside-link {
+  margin-left: calc(0px + 19px);
+}
+
 @media (max-width: 920px) {
   .UnderTheHoodSection-grid-module {
     grid-template-columns: repeat(8, minmax(0, 1fr));
@@ -486,20 +527,4 @@ p {
 
     grid-template-areas: var(--grid-areas-tablet5, var(--grid-areas-default5));
   }
-}
-
-.Terms strong {
-  color: #f7f8f8;
-}
-.Terms p {
-  color: #d0d6e0;
-  margin-top: 16px;
-}
-.Terms .content * {
-  max-width: 624px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.Terns h2 {
-  font-size: 18px;
 }

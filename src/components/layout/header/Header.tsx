@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "@/components/common/Logo";
+import Logo from "@/components/common/svgs/Logo";
 import { useState } from "react";
 
 const Header = () => {
