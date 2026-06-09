@@ -38,7 +38,7 @@ const SignUp = () => {
               </button>
             </div>
             <p className="text-[14px] text-center">
-              By signng up, you agree to our{" "}
+              By signing up, you agree to our{" "}
               <span className="inline-block group">
                 <a
                   className="relative text-white group-hover:underline group-hover:underline-offset-[2.5px] decoration-[1.6px] decoration-[rgb(150,151,153)] "

@@ -1,3 +1,5 @@
+import Sidebar from "@/components/layout/sidebar/Sidebar";
+
 export default function UserLayout({
   children,
 }: {
@@ -5,6 +7,7 @@ export default function UserLayout({
 }) {
   return (
     <div className="flex h-screen">
+      <Sidebar />
       <div className="flex flex-col flex-[1_1_0%]">
         <main className="flex-1">{children}</main>
         <div className="flex justify-end">

@@ -10,10 +10,11 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
+  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import { useState } from "react";
 
 const Sidebar = () => {
@@ -27,7 +28,7 @@ const Sidebar = () => {
   const user = pathname.split("/")[1];
 
   return (
-    <aside className="w-[13%] flex flex-col p-[20px] bg-[black] gap-[20px] ">
+    <aside className="w-[13%] flex flex-col p-[20px] gap-[20px] bg-[black]  ">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button className="flex items-center justify-start p-0">
@@ -51,27 +52,38 @@ const Sidebar = () => {
             </svg>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="bg-[#1b1b1c] p-[15px_25px] flex flex-col  text-[14px] border-none outline-none focus:outline-none border-[red] outline-red-400">
-          <Link className="" href={`/${user}/settings/account/preferences`}>
+        <DropdownMenuContent className="dropdown-menu bg-[#1b1b1c]  flex flex-col  text-[14px] ring-0 shadow-none border-2 border-[#2c2d30]">
+          <Link
+            className="aside-link"
+            href={`/${user}/settings/account/preferences`}
+          >
             Settings
+            <DropdownMenuShortcut className="dropdown-shortcuts">
+              G then S
+            </DropdownMenuShortcut>
           </Link>
-          <Link className="" href={``}>
+          <Link className="aside-link" href={``}>
             Invite and manage members
           </Link>
-          <DropdownMenuSeparator className="bg-[#232427]" />
-          <Link className="" href={``}>
+          <DropdownMenuSeparator className="bg-[#2c2d30]" />
+          <Link className="aside-link" href={``}>
             Download desktop app
           </Link>
-          <Link className="" href={``}>
+
+          <DropdownMenuSeparator className="bg-[#2c2d30]" />
+          <Link className="aside-link" href={``}>
             Switch workplace
           </Link>
-          <DropdownMenuSeparator className="bg-[#232427]" />
-          <Link className="" href={``}>
-            Switch workplace
-          </Link>
-          <Link className="" href={``}>
-            Logout
-          </Link>
+          <DropdownMenuItem onClick={() => signOut()} className="aside-link">
+            Log out
+            <DropdownMenuShortcut className="dropdown-shortcuts">
+              <span>
+                <kbd aria-hidden="true">Alt</kbd>
+                <kbd aria-hidden="true">⇧</kbd>
+                <kbd aria-hidden="true">Q</kbd>
+              </span>
+            </DropdownMenuShortcut>
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
 
@@ -199,7 +211,7 @@ const Sidebar = () => {
                 More
               </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-[#1b1b1c] p-[15px_25px] flex flex-col  text-[14px] border-none outline-none focus:outline-none border-[red] outline-red-400">
+            <DropdownMenuContent className="dropdown-menu bg-[#1b1b1c]  flex flex-col  text-[14px] ring-0 shadow-none">
               <Link className="aside-link" href={`/${user}/teams`}>
                 <svg
                   width="16"
